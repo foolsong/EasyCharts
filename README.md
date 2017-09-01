@@ -6,10 +6,12 @@ A simple chart lib used for iOS
 * iOS>=8.0
 * iPhone  || iPad
 
-##Features
+## Features
+
 EasyCharts supports multiple methods for installing the library in a project.
 
-##Installation
+## Installation
+
 * using CocoaPods
 * using Carthage
 * by cloning the project into your repository
