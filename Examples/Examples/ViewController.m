@@ -13,6 +13,7 @@
 #import "ProgressViewController.h"
 #import "PieChartViewController.h"
 #import "PieChartViewController.h"
+#import "LineViewAndProgressViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -73,9 +74,9 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (void)jump2BrokenLine2VC {
-//    BrokenLine2ViewController *vc = [[BrokenLine2ViewController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+- (void)jump2LineViewAndProgressViewController {
+    LineViewAndProgressViewController *vc = [[LineViewAndProgressViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma  mark - UITableViewDelegate,UITableViewDataSource
@@ -106,6 +107,7 @@
     } else if (indexPath.row == 2) {
         [self jump2ProgressViewController];
     } else if (indexPath.row == 3) {
+        [self jump2LineViewAndProgressViewController];
     } else if (indexPath.row == 4) {
         [self jump2PieChartViewController];
     }
