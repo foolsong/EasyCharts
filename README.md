@@ -80,13 +80,13 @@ EasyCharts supports multiple methods for installing the library in a project.
     [self.view addSubview:brokenLineView];
 ```
 
-赋值：
+图标重新赋值（数值小于最小值，则值显示为最小值，点两边为虚线。值大于最大值，则显示最大值，点两边为虚线）：
 
-```
+```Objective-C
 [self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
-                                                    titleText:self.pointValveList];
+                                                    titleText:self.pointTextList];
 ```													
-
+<!--
 <center>
 
 ![image](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif)
@@ -99,6 +99,42 @@ EasyCharts supports multiple methods for installing the library in a project.
 
 </center>
 
+-->
+### ProgressView
+
+初始化只需要传入`frame`
+
+```Objective-c
+ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFrame:frame];
+    [self.view addSubview:progressView];
+```
+
+重新赋值；
+
+```Objective-c
+[self.progressView resetProgress:[self createProgress]];
+```
+
+### BrokenLineChart && ProgressView
+直接看一下应用场景：
+
+
+### PieChart
+
+初始化只需要传入`frame`
+
+```Objective-c
+ ECPieChartView *pieView = [ECPieChartView pieChartViewWithFrame:CGRectMake(0, 100, ECScreenW, 200)];
+    [self.view addSubview:pieView];
+```
+
+重新赋值；三个参数，分别是百分比列表、颜色列表、文案列表
+
+```Objective-c
+[pieView drawPieChartWithPercentList:self.percentList
+                               colorList:self.colorList
+                             arcTextList:self.arcTextList];
+```
 
 <!--
 ## Hope
