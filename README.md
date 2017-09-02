@@ -37,9 +37,23 @@ EasyCharts supports multiple methods for installing the library in a project.
    >  `BrokenLineTypeNormal`是普通的折线图 \
   >  `BrokenLineTypeCenterPoint`选中的点始终居中
   
-   创建时除了`BrokenLineType`还有两个参数，一个是`frame`，另一个是`ECBrokenLineConfig`对象。
+   创建时除了`BrokenLineType`还有两个参数，一个是`frame`，另一个是`ECBrokenLineConfig`(参数如下)对象,。
    
    > `ECBrokenLineConfig`可配置折线图的属性，属性都有默认值。当然可以传`nil`,全部被使用默认值
+   
+```Objective-c
+@property (nonatomic, strong) UIColor *brokenLineColor;
+@property (nonatomic, strong) UIColor *backVeiwLineColor;
+@property (nonatomic, strong) UIColor *backVeiwTextColor;
+@property (nonatomic, strong) UIColor *backVeiwBackGroupColor;
+@property (nonatomic, strong) UIColor *brokenAbscissaColor;
+
+@property (nonatomic, assign) CGFloat minValue;  //default 0
+@property (nonatomic, assign) CGFloat maxValue;  //default 100
+
+@property (nonatomic, assign) CGFloat numberOfIntervalLines; //default 5
+@property (nonatomic, assign) BrokenLineType brokenLineType;
+```
    
    delegate,在当前折线图上的点被点击时调用：
    
