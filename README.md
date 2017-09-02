@@ -11,8 +11,8 @@ A simple chart lib used for iOS
  - [x] BrokenLineChart 
  - [x] PieChart
  - [x] ProgressChart 
- - [] BarGraph
- - [] RadarMap
+ - [  ] BarGraph
+ - [  ] RadarMap
 
 **持续更行中……**
 
@@ -20,11 +20,12 @@ A simple chart lib used for iOS
 ## Installation
 
 At present 
+* by cloning the project into your repository
 <!-- EasyCharts supports multiple methods for installing the library in a project.
 
 * using CocoaPods
 * using Carthage -->
-* by cloning the project into your repository
+
 
 
 <!--## How to use-->
