@@ -8,9 +8,11 @@ A simple chart lib used for iOS
 
 ## Features
 
-EasyCharts supports multiple methods for installing the library in a project.
+
 
 ## Installation
+
+EasyCharts supports multiple methods for installing the library in a project.
 
 * using CocoaPods
 * using Carthage
@@ -20,7 +22,7 @@ EasyCharts supports multiple methods for installing the library in a project.
 <!--## How to use-->
 
 ## Usage
-
+第一步导入头文件 `#import "EasyCharts.h"`
 #### Source files
 
 
