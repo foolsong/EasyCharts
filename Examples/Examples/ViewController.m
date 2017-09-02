@@ -11,6 +11,8 @@
 #import "LineNormalViewController.h"
 #import "LineCenterViewController.h"
 #import "ProgressViewController.h"
+#import "PieChartViewController.h"
+#import "PieChartViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -66,9 +68,9 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (void)jump2DrawBarVC {
-//    DrawBarViewController *vc = [[DrawBarViewController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+- (void)jump2PieChartViewController {
+    PieChartViewController *vc = [[PieChartViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)jump2BrokenLine2VC {
@@ -105,6 +107,7 @@
         [self jump2ProgressViewController];
     } else if (indexPath.row == 3) {
     } else if (indexPath.row == 4) {
+        [self jump2PieChartViewController];
     }
 }
 

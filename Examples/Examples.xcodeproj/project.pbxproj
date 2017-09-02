@@ -34,6 +34,7 @@
 		847F9D251F5AA4570015FBC8 /* LineCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D241F5AA4570015FBC8 /* LineCenterViewController.m */; };
 		847F9D281F5AA4AD0015FBC8 /* LineNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */; };
 		847F9D2B1F5AB0510015FBC8 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D2A1F5AB0510015FBC8 /* ProgressViewController.m */; };
+		847F9D2E1F5AB2640015FBC8 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D2D1F5AB2640015FBC8 /* PieChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,8 @@
 		847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineNormalViewController.m; sourceTree = "<group>"; };
 		847F9D291F5AB0510015FBC8 /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
 		847F9D2A1F5AB0510015FBC8 /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		847F9D2C1F5AB2640015FBC8 /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		847F9D2D1F5AB2640015FBC8 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +245,8 @@
 				847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */,
 				847F9D291F5AB0510015FBC8 /* ProgressViewController.h */,
 				847F9D2A1F5AB0510015FBC8 /* ProgressViewController.m */,
+				847F9D2C1F5AB2640015FBC8 /* PieChartViewController.h */,
+				847F9D2D1F5AB2640015FBC8 /* PieChartViewController.m */,
 			);
 			name = ExamplesController;
 			path = EasyCharts/ExamplesController;
@@ -320,6 +325,7 @@
 			files = (
 				847F9D281F5AA4AD0015FBC8 /* LineNormalViewController.m in Sources */,
 				847F9D161F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.m in Sources */,
+				847F9D2E1F5AB2640015FBC8 /* PieChartViewController.m in Sources */,
 				847F9D111F5AA08E0015FBC8 /* ECBarCollectionViewCell.m in Sources */,
 				847F9D181F5AA08E0015FBC8 /* ECBrokenLineConfig.m in Sources */,
 				847F9D1F1F5AA08E0015FBC8 /* ECPieChartModel.m in Sources */,
