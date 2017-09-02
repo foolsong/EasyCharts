@@ -116,7 +116,7 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
 ```
 
 ### BrokenLineChart && ProgressView
-直接看一下应用场景：
+简单看一下应用场景：
 
 
 ### PieChart
