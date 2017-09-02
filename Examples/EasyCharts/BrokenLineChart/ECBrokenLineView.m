@@ -63,7 +63,7 @@
 }
 
 - (void)setupSubviews {
-    if (self.brokenLineType == BrokenLineTypeMiddlePoint) {
+    if (self.brokenLineType == BrokenLineTypeCenterPoint) {
         [self setupCenterCollectionViewBackgroundView];
         [self setupCenterCollectionView];
     } else {

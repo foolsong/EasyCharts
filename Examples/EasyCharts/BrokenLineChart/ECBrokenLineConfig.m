@@ -32,7 +32,7 @@
 - (UIColor *)brokenLineColor {
     if (_brokenLineColor == nil) {
         _brokenLineColor =
-        self.brokenLineType == BrokenLineTypeMiddlePoint ?
+        self.brokenLineType == BrokenLineTypeCenterPoint ?
                                [UIColor whiteColor]:
                                [UIColor colorWithRed:(37)/255.0
                                                green:(173)/255.0
@@ -65,7 +65,7 @@
 - (UIColor *)backVeiwBackGroupColor {
     if (_backVeiwBackGroupColor == nil) {
         _backVeiwBackGroupColor =
-        self.brokenLineType == BrokenLineTypeMiddlePoint ?
+        self.brokenLineType == BrokenLineTypeCenterPoint ?
         [UIColor colorWithRed:(255)/255.0 green:(209)/255.0 blue:(93)/255.0 alpha:1.0] :
         [UIColor whiteColor];
     }
@@ -75,7 +75,7 @@
 - (UIColor *)brokenAbscissaColor {
     if (_brokenAbscissaColor == nil) {
         _brokenAbscissaColor =
-        self.brokenLineType == BrokenLineTypeMiddlePoint ?
+        self.brokenLineType == BrokenLineTypeCenterPoint ?
         [UIColor colorWithRed:(255)/255.0 green:(209)/255.0 blue:(93)/255.0 alpha:0.8]:
         [UIColor colorWithRed:(150)/255.0 green:(150)/255.0 blue:(150)/255.0 alpha:0.8];
     }

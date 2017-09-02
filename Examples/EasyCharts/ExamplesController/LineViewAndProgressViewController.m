@@ -87,7 +87,7 @@
     CGRect frame = CGRectMake(0, 280, [UIScreen mainScreen].bounds.size.width, 300);
     ECBrokenLineView *brokenLineView = [ECBrokenLineView lineViewWithFrame:frame
                                                       withBrokenLineConfig:nil
-                                                            brokenLineType:BrokenLineTypeMiddlePoint];
+                                                            brokenLineType:BrokenLineTypeCenterPoint];
     brokenLineView.delegate = self;
     [self.view addSubview:brokenLineView];
     self.brokenLineView = brokenLineView;

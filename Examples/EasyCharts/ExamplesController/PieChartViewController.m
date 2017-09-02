@@ -45,7 +45,7 @@
 
 #pragma mark - Functions
 - (void)configOwnProperties {
-    [self.view setBackgroundColor:ECBackgroundColor];
+    [self.view setBackgroundColor:[UIColor whiteColor]];
 }
 
 
