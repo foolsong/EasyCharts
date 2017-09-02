@@ -118,9 +118,12 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
 [self.progressView resetProgress:[self createProgress]];
 ```
 
+<img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_%20ProgressView_gif.gif"  width=300 alt="EC_lineCenterView" />
+
 ### BrokenLineChart && ProgressView
 简单看一下应用场景：
 
+<img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_BrokenLineChart_ProgressView.gif"  width=300 alt="EC_lineCenterView" />
 
 ### PieChart
 
@@ -138,6 +141,8 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
                                colorList:self.colorList
                              arcTextList:self.arcTextList];
 ```
+
+<img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_%20PieChart_gif.gif"  width=300 alt="EC_lineCenterView" />
 
 <!--
 ## Hope
