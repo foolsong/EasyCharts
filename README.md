@@ -89,7 +89,8 @@ EasyCharts supports multiple methods for installing the library in a project.
 
 <center>
 
-![image](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif)
+![image](
+<img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif"  width=300 alt="上海鲜花港 - 郁金香" />
 
 </center>
 
