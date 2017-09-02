@@ -85,7 +85,7 @@ At present
     [self.view addSubview:brokenLineView];
 ```
 
-图标重新赋值（数值小于最小值，则值显示为最小值，点两边为虚线。值大于最大值，则显示最大值，点两边为虚线）：
+填充数据（也可刷新页面数据）（**数值小于最小值，则值显示为最小值，点两边为虚线。值大于最大值，则显示最大值，点两边为虚线**）：
 
 ```Objective-C
 [self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
@@ -117,7 +117,7 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
     [self.view addSubview:progressView];
 ```
 
-重新赋值；
+填充数据（也可刷新页面数据）；
 
 ```Objective-c
 [self.progressView resetProgress:[self createProgress]];
@@ -139,7 +139,7 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
     [self.view addSubview:pieView];
 ```
 
-重新赋值；三个参数，分别是百分比列表、颜色列表、文案列表
+填充数据（也可刷新页面数据）；三个参数，分别是百分比列表、颜色列表、文案列表
 
 ```Objective-c
 [pieView drawPieChartWithPercentList:self.percentList
