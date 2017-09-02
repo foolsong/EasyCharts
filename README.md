@@ -34,8 +34,7 @@ EasyCharts supports multiple methods for installing the library in a project.
 
 ### BrokenLineChart 
    BrokenLineChart目前有两种类型`BrokenLineTypeCenterPoint`和`BrokenLineTypeNormal`。
-   >  `BrokenLineTypeNormal`是普通的折线图 \
-   
+   >  `BrokenLineTypeNormal`是普通的折线图 
   >  `BrokenLineTypeCenterPoint`选中的点始终居中
   
    创建时有三个参数，第一个`frame`，
