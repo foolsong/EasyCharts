@@ -13,6 +13,24 @@
 		847F9CD71F5A9EF90015FBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F9CD51F5A9EF90015FBC8 /* Main.storyboard */; };
 		847F9CD91F5A9EF90015FBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847F9CD81F5A9EF90015FBC8 /* Assets.xcassets */; };
 		847F9CDC1F5A9EF90015FBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847F9CDA1F5A9EF90015FBC8 /* LaunchScreen.storyboard */; };
+		847F9D101F5AA08E0015FBC8 /* ECBarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CE61F5AA08E0015FBC8 /* ECBarCollectionView.m */; };
+		847F9D111F5AA08E0015FBC8 /* ECBarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CE81F5AA08E0015FBC8 /* ECBarCollectionViewCell.m */; };
+		847F9D121F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CEB1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m */; };
+		847F9D131F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CED1F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m */; };
+		847F9D141F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CEF1F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m */; };
+		847F9D151F5AA08E0015FBC8 /* ECBrokenLineCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CF11F5AA08E0015FBC8 /* ECBrokenLineCollectionView.m */; };
+		847F9D161F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CF31F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.m */; };
+		847F9D171F5AA08E0015FBC8 /* ECBrokenLineCollectionViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CF51F5AA08E0015FBC8 /* ECBrokenLineCollectionViewFactory.m */; };
+		847F9D181F5AA08E0015FBC8 /* ECBrokenLineConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CF71F5AA08E0015FBC8 /* ECBrokenLineConfig.m */; };
+		847F9D191F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CF91F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.m */; };
+		847F9D1A1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CFB1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.m */; };
+		847F9D1B1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9CFD1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m */; };
+		847F9D1C1F5AA08E0015FBC8 /* ECBrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D001F5AA08E0015FBC8 /* ECBrokenLineView.m */; };
+		847F9D1D1F5AA08E0015FBC8 /* ECPieChartCoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D061F5AA08E0015FBC8 /* ECPieChartCoreView.m */; };
+		847F9D1E1F5AA08E0015FBC8 /* ECPieChartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D081F5AA08E0015FBC8 /* ECPieChartLineView.m */; };
+		847F9D1F1F5AA08E0015FBC8 /* ECPieChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0A1F5AA08E0015FBC8 /* ECPieChartModel.m */; };
+		847F9D201F5AA08E0015FBC8 /* ECPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0C1F5AA08E0015FBC8 /* ECPieChartView.m */; };
+		847F9D211F5AA08E0015FBC8 /* ECProgressChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,45 @@
 		847F9CD81F5A9EF90015FBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847F9CDB1F5A9EF90015FBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847F9CDD1F5A9EF90015FBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847F9CE51F5AA08E0015FBC8 /* ECBarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBarCollectionView.h; sourceTree = "<group>"; };
+		847F9CE61F5AA08E0015FBC8 /* ECBarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBarCollectionView.m; sourceTree = "<group>"; };
+		847F9CE71F5AA08E0015FBC8 /* ECBarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBarCollectionViewCell.h; sourceTree = "<group>"; };
+		847F9CE81F5AA08E0015FBC8 /* ECBarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBarCollectionViewCell.m; sourceTree = "<group>"; };
+		847F9CEA1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineCenterBackgroundView.h; sourceTree = "<group>"; };
+		847F9CEB1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineCenterBackgroundView.m; sourceTree = "<group>"; };
+		847F9CEC1F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineCenterCollectionView.h; sourceTree = "<group>"; };
+		847F9CED1F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineCenterCollectionView.m; sourceTree = "<group>"; };
+		847F9CEE1F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineCircleLayer.h; sourceTree = "<group>"; };
+		847F9CEF1F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineCircleLayer.m; sourceTree = "<group>"; };
+		847F9CF01F5AA08E0015FBC8 /* ECBrokenLineCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineCollectionView.h; sourceTree = "<group>"; };
+		847F9CF11F5AA08E0015FBC8 /* ECBrokenLineCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineCollectionView.m; sourceTree = "<group>"; };
+		847F9CF21F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineCollectionViewCell.h; sourceTree = "<group>"; };
+		847F9CF31F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineCollectionViewCell.m; sourceTree = "<group>"; };
+		847F9CF41F5AA08E0015FBC8 /* ECBrokenLineCollectionViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineCollectionViewFactory.h; sourceTree = "<group>"; };
+		847F9CF51F5AA08E0015FBC8 /* ECBrokenLineCollectionViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineCollectionViewFactory.m; sourceTree = "<group>"; };
+		847F9CF61F5AA08E0015FBC8 /* ECBrokenLineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineConfig.h; sourceTree = "<group>"; };
+		847F9CF71F5AA08E0015FBC8 /* ECBrokenLineConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineConfig.m; sourceTree = "<group>"; };
+		847F9CF81F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineNormalBackgroundView.h; sourceTree = "<group>"; };
+		847F9CF91F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineNormalBackgroundView.m; sourceTree = "<group>"; };
+		847F9CFA1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineNormalCollectionView.h; sourceTree = "<group>"; };
+		847F9CFB1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineNormalCollectionView.m; sourceTree = "<group>"; };
+		847F9CFC1F5AA08E0015FBC8 /* ECBrokenLinePointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLinePointModel.h; sourceTree = "<group>"; };
+		847F9CFD1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLinePointModel.m; sourceTree = "<group>"; };
+		847F9CFE1F5AA08E0015FBC8 /* ECBrokenLineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineProtocol.h; sourceTree = "<group>"; };
+		847F9CFF1F5AA08E0015FBC8 /* ECBrokenLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBrokenLineView.h; sourceTree = "<group>"; };
+		847F9D001F5AA08E0015FBC8 /* ECBrokenLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBrokenLineView.m; sourceTree = "<group>"; };
+		847F9D021F5AA08E0015FBC8 /* ECCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECCommon.h; sourceTree = "<group>"; };
+		847F9D031F5AA08E0015FBC8 /* EasyCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyCharts.h; sourceTree = "<group>"; };
+		847F9D051F5AA08E0015FBC8 /* ECPieChartCoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPieChartCoreView.h; sourceTree = "<group>"; };
+		847F9D061F5AA08E0015FBC8 /* ECPieChartCoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPieChartCoreView.m; sourceTree = "<group>"; };
+		847F9D071F5AA08E0015FBC8 /* ECPieChartLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPieChartLineView.h; sourceTree = "<group>"; };
+		847F9D081F5AA08E0015FBC8 /* ECPieChartLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPieChartLineView.m; sourceTree = "<group>"; };
+		847F9D091F5AA08E0015FBC8 /* ECPieChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPieChartModel.h; sourceTree = "<group>"; };
+		847F9D0A1F5AA08E0015FBC8 /* ECPieChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPieChartModel.m; sourceTree = "<group>"; };
+		847F9D0B1F5AA08E0015FBC8 /* ECPieChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPieChartView.h; sourceTree = "<group>"; };
+		847F9D0C1F5AA08E0015FBC8 /* ECPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPieChartView.m; sourceTree = "<group>"; };
+		847F9D0E1F5AA08E0015FBC8 /* ECProgressChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECProgressChartView.h; sourceTree = "<group>"; };
+		847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECProgressChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +99,7 @@
 		847F9CC01F5A9EF90015FBC8 = {
 			isa = PBXGroup;
 			children = (
+				847F9CE31F5AA08E0015FBC8 /* EasyCharts */,
 				847F9CCB1F5A9EF90015FBC8 /* Examples */,
 				847F9CCA1F5A9EF90015FBC8 /* Products */,
 			);
@@ -77,6 +135,92 @@
 				847F9CCD1F5A9EF90015FBC8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847F9CE31F5AA08E0015FBC8 /* EasyCharts */ = {
+			isa = PBXGroup;
+			children = (
+				847F9CE41F5AA08E0015FBC8 /* BarGraph */,
+				847F9CE91F5AA08E0015FBC8 /* BrokenLineChart */,
+				847F9D011F5AA08E0015FBC8 /* Common */,
+				847F9D031F5AA08E0015FBC8 /* EasyCharts.h */,
+				847F9D041F5AA08E0015FBC8 /* PieChart */,
+				847F9D0D1F5AA08E0015FBC8 /* ProgressView */,
+			);
+			path = EasyCharts;
+			sourceTree = "<group>";
+		};
+		847F9CE41F5AA08E0015FBC8 /* BarGraph */ = {
+			isa = PBXGroup;
+			children = (
+				847F9CE51F5AA08E0015FBC8 /* ECBarCollectionView.h */,
+				847F9CE61F5AA08E0015FBC8 /* ECBarCollectionView.m */,
+				847F9CE71F5AA08E0015FBC8 /* ECBarCollectionViewCell.h */,
+				847F9CE81F5AA08E0015FBC8 /* ECBarCollectionViewCell.m */,
+			);
+			path = BarGraph;
+			sourceTree = "<group>";
+		};
+		847F9CE91F5AA08E0015FBC8 /* BrokenLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				847F9CEA1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.h */,
+				847F9CEB1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m */,
+				847F9CEC1F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.h */,
+				847F9CED1F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m */,
+				847F9CEE1F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.h */,
+				847F9CEF1F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m */,
+				847F9CF01F5AA08E0015FBC8 /* ECBrokenLineCollectionView.h */,
+				847F9CF11F5AA08E0015FBC8 /* ECBrokenLineCollectionView.m */,
+				847F9CF21F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.h */,
+				847F9CF31F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.m */,
+				847F9CF41F5AA08E0015FBC8 /* ECBrokenLineCollectionViewFactory.h */,
+				847F9CF51F5AA08E0015FBC8 /* ECBrokenLineCollectionViewFactory.m */,
+				847F9CF61F5AA08E0015FBC8 /* ECBrokenLineConfig.h */,
+				847F9CF71F5AA08E0015FBC8 /* ECBrokenLineConfig.m */,
+				847F9CF81F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.h */,
+				847F9CF91F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.m */,
+				847F9CFA1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.h */,
+				847F9CFB1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.m */,
+				847F9CFC1F5AA08E0015FBC8 /* ECBrokenLinePointModel.h */,
+				847F9CFD1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m */,
+				847F9CFE1F5AA08E0015FBC8 /* ECBrokenLineProtocol.h */,
+				847F9CFF1F5AA08E0015FBC8 /* ECBrokenLineView.h */,
+				847F9D001F5AA08E0015FBC8 /* ECBrokenLineView.m */,
+			);
+			path = BrokenLineChart;
+			sourceTree = "<group>";
+		};
+		847F9D011F5AA08E0015FBC8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				847F9D021F5AA08E0015FBC8 /* ECCommon.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		847F9D041F5AA08E0015FBC8 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				847F9D051F5AA08E0015FBC8 /* ECPieChartCoreView.h */,
+				847F9D061F5AA08E0015FBC8 /* ECPieChartCoreView.m */,
+				847F9D071F5AA08E0015FBC8 /* ECPieChartLineView.h */,
+				847F9D081F5AA08E0015FBC8 /* ECPieChartLineView.m */,
+				847F9D091F5AA08E0015FBC8 /* ECPieChartModel.h */,
+				847F9D0A1F5AA08E0015FBC8 /* ECPieChartModel.m */,
+				847F9D0B1F5AA08E0015FBC8 /* ECPieChartView.h */,
+				847F9D0C1F5AA08E0015FBC8 /* ECPieChartView.m */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		847F9D0D1F5AA08E0015FBC8 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				847F9D0E1F5AA08E0015FBC8 /* ECProgressChartView.h */,
+				847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +294,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847F9D161F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.m in Sources */,
+				847F9D111F5AA08E0015FBC8 /* ECBarCollectionViewCell.m in Sources */,
+				847F9D181F5AA08E0015FBC8 /* ECBrokenLineConfig.m in Sources */,
+				847F9D1F1F5AA08E0015FBC8 /* ECPieChartModel.m in Sources */,
+				847F9D191F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.m in Sources */,
+				847F9D101F5AA08E0015FBC8 /* ECBarCollectionView.m in Sources */,
+				847F9D131F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m in Sources */,
+				847F9D1E1F5AA08E0015FBC8 /* ECPieChartLineView.m in Sources */,
+				847F9D1B1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m in Sources */,
+				847F9D121F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m in Sources */,
+				847F9D201F5AA08E0015FBC8 /* ECPieChartView.m in Sources */,
+				847F9D141F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m in Sources */,
+				847F9D1D1F5AA08E0015FBC8 /* ECPieChartCoreView.m in Sources */,
+				847F9D1C1F5AA08E0015FBC8 /* ECBrokenLineView.m in Sources */,
+				847F9D211F5AA08E0015FBC8 /* ECProgressChartView.m in Sources */,
 				847F9CD41F5A9EF90015FBC8 /* ViewController.m in Sources */,
+				847F9D171F5AA08E0015FBC8 /* ECBrokenLineCollectionViewFactory.m in Sources */,
+				847F9D151F5AA08E0015FBC8 /* ECBrokenLineCollectionView.m in Sources */,
 				847F9CD11F5A9EF90015FBC8 /* AppDelegate.m in Sources */,
+				847F9D1A1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.m in Sources */,
 				847F9CCE1F5A9EF90015FBC8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
