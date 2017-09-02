@@ -37,7 +37,16 @@ EasyCharts supports multiple methods for installing the library in a project.
    >  `BrokenLineTypeNormal`是普通的折线图 \
   >  `BrokenLineTypeCenterPoint`选中的点始终居中
   
-   创建时有三个参数，第一个`frame`，
+   创建时除了`BrokenLineType`还有两个参数，一个是`frame`，另一个是`ECBrokenLineConfig`对象。
+   
+   > `ECBrokenLineConfig`可配置折线图的属性，属性都有默认值。当然可以传`nil`,全部被使用默认值
+   
+   delegate
+```Objective-c
+- (void)brokenLineView:(ECBrokenLineView *)brokenLineView
+   selectedAtIndexPath:(NSIndexPath *)indexPath;
+```
+   
 
 #### BrokenLineChart
 
