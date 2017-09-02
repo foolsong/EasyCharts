@@ -10,6 +10,7 @@
 #import "EasyCharts.h"
 #import "LineNormalViewController.h"
 #import "LineCenterViewController.h"
+#import "ProgressViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -60,9 +61,9 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
-- (void)jump2ProgressVC {
-//    ProgressViewViewController *vc = [[ProgressViewViewController alloc] init];
-//    [self.navigationController pushViewController:vc animated:YES];
+- (void)jump2ProgressViewController {
+    ProgressViewController *vc = [[ProgressViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)jump2DrawBarVC {
@@ -101,6 +102,7 @@
     } else if (indexPath.row == 1) {
         [self jump2LineCenterViewController];
     } else if (indexPath.row == 2) {
+        [self jump2ProgressViewController];
     } else if (indexPath.row == 3) {
     } else if (indexPath.row == 4) {
     }
@@ -112,7 +114,7 @@
 
 - (NSArray *)titleList {
     if (_titleList == nil) {
-        _titleList = @[@"LineChart-1",@"LineChart-2",@"PieChart",@"progressCircle"]; //,@"柱状图"
+        _titleList = @[@"LineChart-1",@"LineChart-2",@"ProgressCircle",@"LineChart & ProgressCircle",@"PieChart"]; //,@"柱状图"
     }
     return _titleList;
 }

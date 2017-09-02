@@ -33,6 +33,7 @@
 		847F9D211F5AA08E0015FBC8 /* ECProgressChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */; };
 		847F9D251F5AA4570015FBC8 /* LineCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D241F5AA4570015FBC8 /* LineCenterViewController.m */; };
 		847F9D281F5AA4AD0015FBC8 /* LineNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */; };
+		847F9D2B1F5AB0510015FBC8 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D2A1F5AB0510015FBC8 /* ProgressViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,8 @@
 		847F9D241F5AA4570015FBC8 /* LineCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCenterViewController.m; sourceTree = "<group>"; };
 		847F9D261F5AA4AD0015FBC8 /* LineNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineNormalViewController.h; sourceTree = "<group>"; };
 		847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineNormalViewController.m; sourceTree = "<group>"; };
+		847F9D291F5AB0510015FBC8 /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		847F9D2A1F5AB0510015FBC8 /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +240,8 @@
 				847F9D241F5AA4570015FBC8 /* LineCenterViewController.m */,
 				847F9D261F5AA4AD0015FBC8 /* LineNormalViewController.h */,
 				847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */,
+				847F9D291F5AB0510015FBC8 /* ProgressViewController.h */,
+				847F9D2A1F5AB0510015FBC8 /* ProgressViewController.m */,
 			);
 			name = ExamplesController;
 			path = EasyCharts/ExamplesController;
@@ -320,6 +325,7 @@
 				847F9D1F1F5AA08E0015FBC8 /* ECPieChartModel.m in Sources */,
 				847F9D191F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.m in Sources */,
 				847F9D101F5AA08E0015FBC8 /* ECBarCollectionView.m in Sources */,
+				847F9D2B1F5AB0510015FBC8 /* ProgressViewController.m in Sources */,
 				847F9D131F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m in Sources */,
 				847F9D1E1F5AA08E0015FBC8 /* ECPieChartLineView.m in Sources */,
 				847F9D1B1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m in Sources */,
