@@ -7,7 +7,11 @@ A simple chart lib used for iOS
 * iPhone  || iPad
 
 ## Features
+* BrokenLineChart 
+* PieChart
+* ProgressChart 
 
+<font color=red>持续更行中……</font>
 
 
 ## Installation
@@ -23,7 +27,14 @@ EasyCharts supports multiple methods for installing the library in a project.
 
 ## Usage
 第一步导入头文件 `#import "EasyCharts.h"`
-#### Source files
+#### BrokenLineChart (LineNormalView)
+```
+	ECBrokenLineView *brokenLineView = [ECBrokenLineView lineViewWithFrame:frame
+	                                                      withBrokenLineConfig:nil
+	                                                            brokenLineType:BrokenLineTypeMiddlePoint];
+	    brokenLineView.delegate = self;
+	    [self.view addSubview:brokenLineView];
+```
 
 
 
