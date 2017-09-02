@@ -26,9 +26,18 @@ EasyCharts supports multiple methods for installing the library in a project.
 <!--## How to use-->
 
 ## Usage
-第一步导入头文件 `#import "EasyCharts.h"`
 
-### BrokenLineChart (LineNormalView)
+### 导入头文件 
+`#import "EasyCharts.h"`
+
+下面介绍一下几种图的基本使用
+
+### BrokenLineChart 
+   BrokenLineChart目前有两种类型`BrokenLineTypeCenterPoint`和`BrokenLineTypeNormal`。
+   >  `BrokenLineTypeNormal`是普通的折线图
+   
+  >  `BrokenLineTypeCenterPoint`选中的点始终居中
+   创建时有三个参数，第一个`frame`，
 
 #### BrokenLineChart
 

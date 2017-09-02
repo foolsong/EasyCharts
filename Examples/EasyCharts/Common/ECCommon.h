@@ -8,7 +8,7 @@
 
 
 typedef NS_ENUM(NSUInteger, BrokenLineType) {
-    BrokenLineTypeMiddlePoint = 0,
+    BrokenLineTypeCenterPoint = 0,
     BrokenLineTypeNormal,
 };
 
