@@ -5,21 +5,25 @@ A simple chart lib used for iOS
 * ARC
 * iOS>=8.0
 * iPhone  || iPad
+* Xcode 8.0 or later
 
 ## Features
-* BrokenLineChart 
-* PieChart
-* ProgressChart 
+* [x]BrokenLineChart 
+* [x]PieChart
+* [x]ProgressChart 
+* []BarGraph
+* []RadarMap
 
 **持续更行中……**
 
 
 ## Installation
 
-EasyCharts supports multiple methods for installing the library in a project.
+At present 
+<!-- EasyCharts supports multiple methods for installing the library in a project.
 
 * using CocoaPods
-* using Carthage
+* using Carthage -->
 * by cloning the project into your repository
 
 
