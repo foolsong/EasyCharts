@@ -89,7 +89,7 @@ EasyCharts supports multiple methods for installing the library in a project.
 
 <center>
 
-![image[](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif)
+![image](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif)
 
 </center>
 
