@@ -1,5 +1,7 @@
 # EasyCharts
-A simple chart lib used for iOS
+A simple chart lib used for iOS(Objective-c).
+
+[中文地址](http://blog.csdn.net/foolsong/article/details/77811429)
 
 ## Requirements
 * ARC
@@ -92,10 +94,11 @@ At present
                                                     titleText:self.pointTextList];
 ```													
 
-
-
+**BrokenLineTypeNormal 效果图**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif"  width=300 alt="EC_lineNormal" />
+
+**BrokenLineTypeCenterPoint 效果图**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif"  width=300 alt="EC_lineCenterView" />
 
@@ -148,6 +151,7 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
 ```
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_%20PieChart_gif.gif"  width=300 alt="EC_lineCenterView" />
+
 
 <!--
 ## Hope
