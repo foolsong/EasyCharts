@@ -31,6 +31,8 @@
 		847F9D1F1F5AA08E0015FBC8 /* ECPieChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0A1F5AA08E0015FBC8 /* ECPieChartModel.m */; };
 		847F9D201F5AA08E0015FBC8 /* ECPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0C1F5AA08E0015FBC8 /* ECPieChartView.m */; };
 		847F9D211F5AA08E0015FBC8 /* ECProgressChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */; };
+		847F9D251F5AA4570015FBC8 /* LineCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D241F5AA4570015FBC8 /* LineCenterViewController.m */; };
+		847F9D281F5AA4AD0015FBC8 /* LineNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,10 @@
 		847F9D0C1F5AA08E0015FBC8 /* ECPieChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPieChartView.m; sourceTree = "<group>"; };
 		847F9D0E1F5AA08E0015FBC8 /* ECProgressChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECProgressChartView.h; sourceTree = "<group>"; };
 		847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECProgressChartView.m; sourceTree = "<group>"; };
+		847F9D231F5AA4570015FBC8 /* LineCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineCenterViewController.h; sourceTree = "<group>"; };
+		847F9D241F5AA4570015FBC8 /* LineCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineCenterViewController.m; sourceTree = "<group>"; };
+		847F9D261F5AA4AD0015FBC8 /* LineNormalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineNormalViewController.h; sourceTree = "<group>"; };
+		847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineNormalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		847F9CC01F5A9EF90015FBC8 = {
 			isa = PBXGroup;
 			children = (
+				847F9D221F5AA3670015FBC8 /* ExamplesController */,
 				847F9CE31F5AA08E0015FBC8 /* EasyCharts */,
 				847F9CCB1F5A9EF90015FBC8 /* Examples */,
 				847F9CCA1F5A9EF90015FBC8 /* Products */,
@@ -223,6 +230,18 @@
 			path = ProgressView;
 			sourceTree = "<group>";
 		};
+		847F9D221F5AA3670015FBC8 /* ExamplesController */ = {
+			isa = PBXGroup;
+			children = (
+				847F9D231F5AA4570015FBC8 /* LineCenterViewController.h */,
+				847F9D241F5AA4570015FBC8 /* LineCenterViewController.m */,
+				847F9D261F5AA4AD0015FBC8 /* LineNormalViewController.h */,
+				847F9D271F5AA4AD0015FBC8 /* LineNormalViewController.m */,
+			);
+			name = ExamplesController;
+			path = EasyCharts/ExamplesController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -294,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847F9D281F5AA4AD0015FBC8 /* LineNormalViewController.m in Sources */,
 				847F9D161F5AA08E0015FBC8 /* ECBrokenLineCollectionViewCell.m in Sources */,
 				847F9D111F5AA08E0015FBC8 /* ECBarCollectionViewCell.m in Sources */,
 				847F9D181F5AA08E0015FBC8 /* ECBrokenLineConfig.m in Sources */,
@@ -305,6 +325,7 @@
 				847F9D1B1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m in Sources */,
 				847F9D121F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m in Sources */,
 				847F9D201F5AA08E0015FBC8 /* ECPieChartView.m in Sources */,
+				847F9D251F5AA4570015FBC8 /* LineCenterViewController.m in Sources */,
 				847F9D141F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m in Sources */,
 				847F9D1D1F5AA08E0015FBC8 /* ECPieChartCoreView.m in Sources */,
 				847F9D1C1F5AA08E0015FBC8 /* ECBrokenLineView.m in Sources */,
@@ -437,6 +458,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yjSong.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -451,6 +473,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yjSong.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
