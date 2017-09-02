@@ -12,7 +12,7 @@ A simple chart lib used for iOS
  - [x] PieChart
  - [x] ProgressChart 
  - [ ] BarGraph
- - [ ]RadarMap
+ - [ ] RadarMap
 
 **持续更行中……**
 
@@ -37,6 +37,7 @@ At present
 下面介绍一下几种图的基本使用
 
 ### BrokenLineChart 
+
    BrokenLineChart目前有两种类型`BrokenLineTypeCenterPoint`和`BrokenLineTypeNormal`。
    >  `BrokenLineTypeNormal`是普通的折线图 \
   >  `BrokenLineTypeCenterPoint`选中的点始终居中
