@@ -86,7 +86,7 @@ EasyCharts supports multiple methods for installing the library in a project.
 [self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
                                                     titleText:self.pointTextList];
 ```													
-<!--
+
 <center>
 
 ![image](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif)
@@ -94,12 +94,13 @@ EasyCharts supports multiple methods for installing the library in a project.
 </center>
 
 <center>
+<img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif"  width=300 alt="上海鲜花港 - 郁金香" />
 
-![image](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif)
+<!-- ![image](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif) -->
 
 </center>
 
--->
+
 ### ProgressView
 
 初始化只需要传入`frame`
