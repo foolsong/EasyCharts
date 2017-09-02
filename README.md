@@ -27,6 +27,7 @@ EasyCharts supports multiple methods for installing the library in a project.
 
 ## Usage
 第一步导入头文件 `#import "EasyCharts.h"`
+
 ###BrokenLineChart (LineNormalView)
 ```Objective-C
 	ECBrokenLineView *brokenLineView = [ECBrokenLineView lineViewWithFrame:frame
