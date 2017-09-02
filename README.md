@@ -8,11 +8,11 @@ A simple chart lib used for iOS
 * Xcode 8.0 or later
 
 ## Features
- [x] BrokenLineChart 
- [x] PieChart
- [x] ProgressChart 
- [] BarGraph
- [] RadarMap
+ - [x] BrokenLineChart 
+ - [x] PieChart
+ - [x] ProgressChart 
+ - [] BarGraph
+ - [] RadarMap
 
 **持续更行中……**
 
