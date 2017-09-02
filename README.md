@@ -80,6 +80,20 @@ EasyCharts supports multiple methods for installing the library in a project.
     [self.view addSubview:brokenLineView];
 ```
 
+赋值：
+
+```
+[self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
+                                                    titleText:self.pointValveList];
+```													
+
+<center>
+![](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif)
+</center>
+
+<center>
+![](https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif)
+</center>
 
 
 <!--

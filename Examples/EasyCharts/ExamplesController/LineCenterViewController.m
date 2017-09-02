@@ -58,8 +58,8 @@
 
 - (void)resetupLineValue {
     self.pointValveList = @[@"34",@"12",@"100",@"16",@"1"];
-    [self.brokenLineView reloadLineViewDataWithPointValveList: self.pointValveList
-                                                    titleText:@[@"Jan",@"Feb",@"Mar",@"Apr",@"May"]];
+    [self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
+                                                    titleText:self.pointValveList];
 }
 
 #pragma ECBrokenLineViewDelegate
