@@ -41,7 +41,8 @@ EasyCharts supports multiple methods for installing the library in a project.
    
    > `ECBrokenLineConfig`可配置折线图的属性，属性都有默认值。当然可以传`nil`,全部被使用默认值
    
-   delegate
+   delegate,在当前折线图上的点被点击时调用：
+   
 ```Objective-c
 - (void)brokenLineView:(ECBrokenLineView *)brokenLineView
    selectedAtIndexPath:(NSIndexPath *)indexPath;
@@ -51,11 +52,11 @@ EasyCharts supports multiple methods for installing the library in a project.
 #### BrokenLineChart
 
 ```Objective-C
-	ECBrokenLineView *brokenLineView = [ECBrokenLineView lineViewWithFrame:frame
-	                                                      withBrokenLineConfig:nil
-	                                                            brokenLineType:BrokenLineTypeMiddlePoint];
-	    brokenLineView.delegate = self;
-	    [self.view addSubview:brokenLineView];
+ ECBrokenLineView *brokenLineView = [ECBrokenLineView lineViewWithFrame:frame
+                                                      withBrokenLineConfig:nil
+                                                            brokenLineType:BrokenLineTypeNormal];
+    brokenLineView.delegate = self;
+    [self.view addSubview:brokenLineView];
 ```
 
 
