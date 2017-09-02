@@ -25,14 +25,18 @@ EasyCharts supports multiple methods for installing the library in a project.
 
 
 
-
+<!--
 ## Hope
 
 * If you find bug when used，Hope you can Issues me，Thank you or try to download the latest code of this framework to see the BUG has been fixed or not）
 * If you find the function is not enough when used，Hope you can Issues me，I very much to add more useful function to this framework ，Thank you !
 * If you want to contribute code for EasyCharts，please Pull Requests me
 
-##Communication
+-->
+
+
+## Communication
+
 * If you found a bug, and can provide steps to reliably reproduce it, open an issue.
 * If you have a feature request, open an issue.
 * If you want to contribute, submit a pull request.
