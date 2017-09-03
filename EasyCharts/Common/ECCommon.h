@@ -8,11 +8,21 @@
 
 
 typedef NS_ENUM(NSUInteger, BrokenLineType) {
-    BrokenLineTypeMiddlePoint = 0,
+    BrokenLineTypeCenterPoint = 0,
     BrokenLineTypeNormal,
 };
 
 #define ECScreenW [UIScreen mainScreen].bounds.size.width
+#define ECScreenH [UIScreen mainScreen].bounds.size.height
+#define ECBackgroundColor [UIColor colorWithRed:(240)/255.0 green:(240)/255.0\
+                            blue:(240)/255.0 alpha:1.0]
+
+#define random(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define randomColor random(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+#define MYBUNDLE_NAME   @"EasyChartsBundle.bundle"
+#define MYBUNDLE_PATH   [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:MYBUNDLE_NAME]
+#define MYBUNDLE        [NSBundle bundleWithPath:MYBUNDLE_PATH]
 
 //#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 //

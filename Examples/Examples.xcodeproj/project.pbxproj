@@ -36,6 +36,7 @@
 		847F9D2B1F5AB0510015FBC8 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D2A1F5AB0510015FBC8 /* ProgressViewController.m */; };
 		847F9D2E1F5AB2640015FBC8 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D2D1F5AB2640015FBC8 /* PieChartViewController.m */; };
 		847F9D311F5AB4A90015FBC8 /* LineViewAndProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D301F5AB4A90015FBC8 /* LineViewAndProgressViewController.m */; };
+		847F9D4B1F5C04060015FBC8 /* EasyChartsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 847F9D4A1F5C04060015FBC8 /* EasyChartsBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		847F9D2D1F5AB2640015FBC8 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
 		847F9D2F1F5AB4A90015FBC8 /* LineViewAndProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineViewAndProgressViewController.h; sourceTree = "<group>"; };
 		847F9D301F5AB4A90015FBC8 /* LineViewAndProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineViewAndProgressViewController.m; sourceTree = "<group>"; };
+		847F9D4A1F5C04060015FBC8 /* EasyChartsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyChartsBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 		847F9D011F5AA08E0015FBC8 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				847F9D4A1F5C04060015FBC8 /* EasyChartsBundle.bundle */,
 				847F9D021F5AA08E0015FBC8 /* ECCommon.h */,
 			);
 			path = Common;
@@ -315,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847F9D4B1F5C04060015FBC8 /* EasyChartsBundle.bundle in Resources */,
 				847F9CDC1F5A9EF90015FBC8 /* LaunchScreen.storyboard in Resources */,
 				847F9CD91F5A9EF90015FBC8 /* Assets.xcassets in Resources */,
 				847F9CD71F5A9EF90015FBC8 /* Main.storyboard in Resources */,

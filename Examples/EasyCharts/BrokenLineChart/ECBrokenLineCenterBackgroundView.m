@@ -13,6 +13,7 @@
 //  ************************************************************************
 
 #import "ECBrokenLineCenterBackgroundView.h"
+#import "ECCommon.h"
 
 @interface ECBrokenLineCenterBackgroundView ()
 
@@ -36,7 +37,9 @@
 }
 
 - (void)setupBackGroupImageView {
-    UIImage *backGroupImage = [UIImage imageNamed:@"lineBackground"];
+    NSString *imgPath= [MYBUNDLE_PATH stringByAppendingPathComponent:@"lineBackground"];
+    UIImage *backGroupImage = [UIImage imageWithContentsOfFile:imgPath];
+//    UIImage *backGroupImage = [UIImage imageNamed:@"lineBackground"];
     UIImageView *backGroupImageView = [[UIImageView alloc] init];
     backGroupImageView.image = backGroupImage;
     
