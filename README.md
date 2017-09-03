@@ -1,7 +1,7 @@
 # EasyCharts
 A simple chart lib used for iOS(Objective-c).  :-)
 
-[中文地址](http://blog.csdn.net/foolsong/article/details/77811429)
+[中文说明](http://blog.csdn.net/foolsong/article/details/77811429)
 
 ## Requirements
 * ARC
@@ -16,7 +16,7 @@ A simple chart lib used for iOS(Objective-c).  :-)
  - [ ] BarGraph
  - [ ] RadarMap
 
-**持续更行中……**
+**Continuously updating ...…**
 
 ## Installation
 
@@ -33,21 +33,24 @@ At present
 
 ## Usage
 
-### 导入头文件 
+### imput header file
 `#import "EasyCharts.h"`
 
-下面介绍一下几种图的基本使用
+The following describes the basic use of several graphs
+
 
 ### BrokenLineChart 
 
-   BrokenLineChart目前有两种类型`BrokenLineTypeCenterPoint`和`BrokenLineTypeNormal`。
-   >  `BrokenLineTypeNormal`是普通的折线图 \
-  >  `BrokenLineTypeCenterPoint`选中的点始终居中
-  
-   创建时除了`BrokenLineType`还有两个参数，一个是`frame`，另一个是`ECBrokenLineConfig`(参数如下)对象。
+   BrokenLineChart,two types :`BrokenLineTypeCenterPoint`和`BrokenLineTypeNormal`。
+   >  `BrokenLineTypeNormal`Is an ordinary line chart
+  >  `BrokenLineTypeCenterPoint`made the selected point always centered
    
-   > `ECBrokenLineConfig`可配置折线图的属性，属性都有默认值。当然可以传`nil`,全部被使用默认值
+   There are two parameters in addition to `BrokenLineType` when creating an object.one is frame, the other is `ECBrokenLineConfig`  object .Parameters below:	
    
+   >  You can use the `ECBrokenLineConfig` object to set the properties of the line－chart，Each attribute is set to default values.Of course you can use `nil`.
+   
+   
+   				
 ```Objective-c
 @property (nonatomic, strong) UIColor *brokenLineColor;
 @property (nonatomic, strong) UIColor *backVeiwLineColor;
@@ -62,7 +65,7 @@ At present
 @property (nonatomic, assign) BrokenLineType brokenLineType;
 ```
    
-   delegate,在当前折线图上的点被点击时调用：
+   Delegate is called when the point on the line is clicked.
    
 ```Objective-c
 - (void)brokenLineView:(ECBrokenLineView *)brokenLineView
@@ -87,18 +90,18 @@ At present
     [self.view addSubview:brokenLineView];
 ```
 
-填充数据（也可刷新页面数据）（**数值小于最小值，则值显示为最小值，点两边为虚线。值大于最大值，则显示最大值，点两边为虚线**）：
+Fill data: ( If the value is less than the minimum value, the minimum value is displayed。If the value is greater than the maximum value, the maximum value is displayed；point on both sides filled with dashed lines)
 
 ```Objective-C
 [self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
                                                     titleText:self.pointTextList];
 ```													
 
-**BrokenLineTypeNormal 效果图**
+**BrokenLineTypeNormal --Renderings**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif"  width=300 alt="EC_lineNormal" />
 
-**BrokenLineTypeCenterPoint 效果图**
+**BrokenLineTypeCenterPoint --Renderings**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif"  width=300 alt="EC_lineCenterView" />
 
@@ -113,14 +116,14 @@ At present
 
 ### ProgressView
 
-初始化只需要传入`frame`
+Initial--Just incoming `frame`.
 
 ```Objective-c
 ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFrame:frame];
     [self.view addSubview:progressView];
 ```
 
-填充数据（也可刷新页面数据）；
+Fill data；
 
 ```Objective-c
 [self.progressView resetProgress:[self createProgress]];
@@ -130,20 +133,20 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
 
 ### BrokenLineChart && ProgressView
 
-简单看一下应用场景：
+Application scenario：
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_BrokenLineChart_ProgressView.gif"  width=300 alt="EC_lineCenterView" />
 
 ### PieChart
 
-初始化只需要传入`frame`
+Initial--Just incoming `frame`.
 
 ```Objective-c
  ECPieChartView *pieView = [ECPieChartView pieChartViewWithFrame:CGRectMake(0, 100, ECScreenW, 200)];
     [self.view addSubview:pieView];
 ```
 
-填充数据（也可刷新页面数据）；三个参数，分别是百分比列表、颜色列表、文案列表
+Fill data:Three parameters:percentList、colorList、arcTextList]
 
 ```Objective-c
 [pieView drawPieChartWithPercentList:self.percentList
