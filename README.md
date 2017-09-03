@@ -72,7 +72,7 @@ The following describes the basic use of several graphs
    selectedAtIndexPath:(NSIndexPath *)indexPath;
 ```
 
-初始化：
+Initial：
 
 ```Objective-C
  ECBrokenLineView *brokenLineView = [ECBrokenLineView lineViewWithFrame:frame
