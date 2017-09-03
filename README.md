@@ -1,5 +1,5 @@
 # EasyCharts
-A simple chart lib used for iOS(Objective-c).
+A simple chart lib used for iOS(Objective-c).  :-)
 
 [中文地址](http://blog.csdn.net/foolsong/article/details/77811429)
 
@@ -129,6 +129,7 @@ ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFr
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_%20ProgressView_gif.gif"  width=300 alt="EC_lineCenterView" />
 
 ### BrokenLineChart && ProgressView
+
 简单看一下应用场景：
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_BrokenLineChart_ProgressView.gif"  width=300 alt="EC_lineCenterView" />
