@@ -33,7 +33,7 @@ At present
 
 ## Usage
 
-### imput header file
+### import header file
 `#import "EasyCharts.h"`
 
 The following describes the basic use of several graphs
@@ -41,7 +41,7 @@ The following describes the basic use of several graphs
 
 ### BrokenLineChart 
 
-   BrokenLineChart,two types :`BrokenLineTypeCenterPoint`和`BrokenLineTypeNormal`。
+   BrokenLineChart,two types :`BrokenLineTypeCenterPoint` and `BrokenLineTypeNormal`。
    >  `BrokenLineTypeNormal`Is an ordinary line chart
   >  `BrokenLineTypeCenterPoint`made the selected point always centered
    
