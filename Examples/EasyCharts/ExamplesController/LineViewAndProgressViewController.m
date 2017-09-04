@@ -28,15 +28,15 @@
 #pragma mark - LifeCircle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
     [self setupNavigationBar];
     [self configOwnProperties];
     [self configSubViews];
+    
+    [self setupValue];
 }
 
 - (void)dealloc {
-    NSLog(@"dealloc");
+    ECLog(@"dealloc");
 }
 
 #pragma mark - Notifies
@@ -67,7 +67,6 @@
     [self setupDrawProgressByShapeLayer];
     [self setupDrawLineView];
     
-    [self test];
 }
 
 - (void)setupDrawProgressByShapeLayer {
@@ -94,15 +93,15 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self test1];
+//    [self test1];
 }
 
-- (void)test {
+- (void)setupValue {
     [self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
                                                     titleText:@[@"Jan",@"Feb",@"Mar",@"Apr",@"May"]];
 }
 
-- (void)test1 {
+- (void)test {
     self.pointValveList = @[@"34",@"12",@"100",@"16",@"1"];
     [self.brokenLineView reloadLineViewDataWithPointValveList: self.pointValveList
                                                     titleText:@[@"Jan",@"Feb",@"Mar",@"Apr",@"May"]];

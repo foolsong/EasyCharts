@@ -4,7 +4,7 @@
 //  EasyCharts
 //
 //  Created by 宋永建 on 2017/8/30.
-//  Copyright © 2017年 宋永建. All rights reserved.
+//  Copyright © 2017年 Global. All rights reserved.
 //
 //  Main function:
 //
@@ -13,6 +13,7 @@
 //  ************************************************************************
 
 #import "ECBrokenLineCollectionView.h"
+#import "ECCommon.h"
 
 @interface ECBrokenLineCollectionView ()
 
@@ -20,13 +21,8 @@
 
 @implementation ECBrokenLineCollectionView
 
-//+ (instancetype)lineBackgroundViewWithFrame:(CGRect)frame
-//                       withBrokenLineConfig:(ECBrokenLineConfig *)brokenLineConfig {
-//    return [[self alloc] init];
-//}
-
 - (void)reloadCollectionData {
-    NSLog(@"Do Nothing");
+    ECLog(@"Do Nothing");
 }
 
 @end

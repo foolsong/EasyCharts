@@ -32,7 +32,7 @@
 
 #pragma mark - Functions
 - (void)p_setupNavigationBar {
-    
+    self.title = @"EasyCharts";
 }
 
 - (void)p_configOwnProperties {
