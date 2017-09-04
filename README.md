@@ -33,21 +33,21 @@ At present
 
 ## Usage
 
-### import header file
+### Import header file
 `#import "EasyCharts.h"`
 
-The following describes the basic use of several graphs
+The following describes the basic use of several graphs.
 
 
 ### BrokenLineChart 
 
-   BrokenLineChart,two types :`BrokenLineTypeCenterPoint` and `BrokenLineTypeNormal`。
-   >  `BrokenLineTypeNormal`Is an ordinary line chart
+   BrokenLineChart now includes :`BrokenLineTypeCenterPoint` and `BrokenLineTypeNormal`。
+   >  `BrokenLineTypeNormal`Is an ordinary broken  line chart
   >  `BrokenLineTypeCenterPoint`made the selected point always centered
    
-   There are two parameters in addition to `BrokenLineType` when creating an object.one is frame, the other is `ECBrokenLineConfig`  object .Parameters below:	
+   Besides `BrokenLineType` ，There are two more parameters when creating an object,one is frame, the other is object `ECBrokenLineConfig` ,parameters below:
    
-   >  You can use the `ECBrokenLineConfig` object to set the properties of the line－chart，Each attribute is set to default values.Of course you can use `nil`.
+   >   You can use `ECBrokenLineConfig` to configure the attributes of the brokenLine charts，Each attribute is set to default values.Of course you can use `nil`.
    
    
    				
@@ -72,7 +72,7 @@ The following describes the basic use of several graphs
    selectedAtIndexPath:(NSIndexPath *)indexPath;
 ```
 
-Initial：
+Initialization：
 
 ```Objective-C
  ECBrokenLineView *brokenLineView = [ECBrokenLineView lineViewWithFrame:frame
@@ -90,18 +90,18 @@ Initial：
     [self.view addSubview:brokenLineView];
 ```
 
-Fill data: ( If the value is less than the minimum value, the minimum value is displayed。If the value is greater than the maximum value, the maximum value is displayed；point on both sides filled with dashed lines)
+Data filling: ( If the value is less than the minimum value, the minimum value is displayed。If the value is greater than the maximum value, the maximum value is displayed；point on both sides filled with dashed lines)
 
 ```Objective-C
 [self.brokenLineView reloadLineViewDataWithPointValveList:self.pointValveList
                                                     titleText:self.pointTextList];
 ```													
 
-**BrokenLineTypeNormal --Renderings**
+**The effect of BrokenLineTypeNormal**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif"  width=300 alt="EC_lineNormal" />
 
-**BrokenLineTypeCenterPoint --Renderings**
+**The effect of BrokenLineTypeCenterPoint**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif"  width=300 alt="EC_lineCenterView" />
 
@@ -116,43 +116,47 @@ Fill data: ( If the value is less than the minimum value, the minimum value is d
 
 ### ProgressView
 
-Initial--Just incoming `frame`.
+Initialization--Just transfer `frame`.
 
 ```Objective-c
 ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFrame:frame];
     [self.view addSubview:progressView];
 ```
 
-Fill data；
+Data filling：
 
 ```Objective-c
 [self.progressView resetProgress:[self createProgress]];
 ```
 
+**The effect of ProgressView:**
+
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_%20ProgressView_gif.gif"  width=300 alt="EC_lineCenterView" />
 
 ### BrokenLineChart && ProgressView
 
-Application scenario：
+**Application scene：**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_BrokenLineChart_ProgressView.gif"  width=300 alt="EC_lineCenterView" />
 
 ### PieChart
 
-Initial--Just incoming `frame`.
+Initialization--Just transfer `frame`.
 
 ```Objective-c
  ECPieChartView *pieView = [ECPieChartView pieChartViewWithFrame:CGRectMake(0, 100, ECScreenW, 200)];
     [self.view addSubview:pieView];
 ```
 
-Fill data:Three parameters:percentList、colorList、arcTextList]
+Data filling:Three parameters:percentList、colorList、arcTextList]
 
 ```Objective-c
 [pieView drawPieChartWithPercentList:self.percentList
                                colorList:self.colorList
                              arcTextList:self.arcTextList];
 ```
+
+**The effect of PieChart:**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_%20PieChart_gif.gif"  width=300 alt="EC_lineCenterView" />
 
