@@ -39,7 +39,6 @@
 - (void)setupBackGroupImageView {
     NSString *imgPath= [MYBUNDLE_PATH stringByAppendingPathComponent:@"lineBackground"];
     UIImage *backGroupImage = [UIImage imageWithContentsOfFile:imgPath];
-//    UIImage *backGroupImage = [UIImage imageNamed:@"lineBackground"];
     UIImageView *backGroupImageView = [[UIImageView alloc] init];
     backGroupImageView.image = backGroupImage;
     
