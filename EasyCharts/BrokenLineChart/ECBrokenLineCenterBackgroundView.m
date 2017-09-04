@@ -4,7 +4,7 @@
 //  DrawByCollectionView
 //
 //  Created by 宋永建 on 2017/6/6.
-//  Copyright © 2017年 宋永建. All rights reserved.
+//  Copyright © 2017年 Global. All rights reserved.
 //
 //  Main function:
 //
@@ -39,7 +39,6 @@
 - (void)setupBackGroupImageView {
     NSString *imgPath= [MYBUNDLE_PATH stringByAppendingPathComponent:@"lineBackground"];
     UIImage *backGroupImage = [UIImage imageWithContentsOfFile:imgPath];
-//    UIImage *backGroupImage = [UIImage imageNamed:@"lineBackground"];
     UIImageView *backGroupImageView = [[UIImageView alloc] init];
     backGroupImageView.image = backGroupImage;
     

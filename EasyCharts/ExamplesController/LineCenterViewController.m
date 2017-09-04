@@ -35,7 +35,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"dealloc");
+    ECLog(@"dealloc");
 }
 
 #pragma mark - Notifies

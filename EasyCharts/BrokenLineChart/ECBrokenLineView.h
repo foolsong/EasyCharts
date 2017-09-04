@@ -3,7 +3,7 @@
 //  EasyCharts
 //
 //  Created by 宋永建 on 2017/4/24.
-//  Copyright © 2017年 宋永建. All rights reserved.
+//  Copyright © 2017年 Global. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -27,10 +27,10 @@
                     brokenLineType:(BrokenLineType)brokenLineType;
 
 /**
- 重新设置图标的数据
+ Fill data
 
- @param pointValueList 展示数据的数组
- @param titleTextList 对应的title数组
+ @param pointValueList  valueList
+ @param titleTextList textList
  */
 - (void)reloadLineViewDataWithPointValveList:(NSArray *)pointValueList
                                    titleText:(NSArray *)titleTextList;

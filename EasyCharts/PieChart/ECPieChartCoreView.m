@@ -3,7 +3,7 @@
 //  EasyCharts
 //
 //  Created by yjsong on 17/5/7.
-//  Copyright © 2017年 宋永建. All rights reserved.
+//  Copyright © 2017年 Global. All rights reserved.
 //
 
 #import "ECPieChartCoreView.h"

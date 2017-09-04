@@ -4,7 +4,7 @@
 //  DrawByCollectionView
 //
 //  Created by 宋永建 on 2017/6/9.
-//  Copyright © 2017年 宋永建. All rights reserved.
+//  Copyright © 2017年 Global. All rights reserved.
 //
 //  Main function:
 //
@@ -14,6 +14,7 @@
 
 #import "ECBarCollectionView.h"
 #import "ECBarCollectionViewCell.h"
+#import "ECCommon.h"
 
 #define ScreenW [UIScreen mainScreen].bounds.size.width
 
@@ -119,7 +120,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         self.contentOffset = CGPointMake( -ScreenW * 0.5 + 87 * 0.5 * cellCount, 0);
     });
     
-    NSLog(@"%ld -      %f",(long)cellCount,-ScreenW * 0.5 + 87 * 0.5 * cellCount);
+    ECLog(@"%ld -      %f",(long)cellCount,-ScreenW * 0.5 + 87 * 0.5 * cellCount);
     
 //    [self layoutIfNeeded];
 }

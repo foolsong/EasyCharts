@@ -34,7 +34,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"dealloc");
+    ECLog(@"dealloc");
 }
 
 #pragma mark - Notifies
@@ -64,7 +64,7 @@
 #pragma ECBrokenLineViewDelegate
 - (void)brokenLineView:(ECBrokenLineView *)brokenLineView
    selectedAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"delegate");
+    ECLog(@"delegate");
 }
 
 #pragma mark - HandleViews
