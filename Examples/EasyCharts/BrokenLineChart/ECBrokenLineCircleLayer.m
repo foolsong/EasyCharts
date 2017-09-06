@@ -101,8 +101,8 @@
         CGSizeMake(CIRCLE_SIZE-strokeWidth, CIRCLE_SIZE-strokeWidth)}];
     
     CGContextSaveGState(context);
-    //yjSong 圆圈填充
-    UIColor *color = brokenLineConfig.backVeiwBackGroupColor;//[UIColor colorWithRed:(255)/255.0 green:(209)/255.0 blue:(93)/255.0 alpha:1.0];
+    // 圆圈填充
+    UIColor *color = brokenLineConfig.backVeiwBackGroupColor;
     [color setFill];
     
     [ovalPath fill];
@@ -115,7 +115,6 @@
     
     circleImage = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
-    //    }
     return circleImage;
 }
 

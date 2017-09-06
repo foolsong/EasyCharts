@@ -8,7 +8,6 @@
 
 #import "ECPieChartCoreView.h"
 #import "ECPieChartModel.h"
-#import "ECBrokenLineCircleLayer.h"
 
 @interface ECPieChartCoreView()
 
