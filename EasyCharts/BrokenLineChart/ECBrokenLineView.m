@@ -41,15 +41,6 @@
     return self;
 }
 
-//+ (instancetype)lineViewWithFrame:(CGRect) frame {
-//    ECBrokenLineView *lineView = [[self alloc] init];
-//    lineView.brokenLineType = BrokenLineTypeMiddlePoint;
-//    lineView.brokenLineConfig = nil;
-//    lineView.frame = frame;
-//    [lineView setupSubviews];
-//    return lineView;
-//}
-
 + (instancetype)lineViewWithFrame:(CGRect) frame
               withBrokenLineConfig:(ECBrokenLineConfig *)brokenLineConfig
                     brokenLineType:(BrokenLineType)brokenLineType {

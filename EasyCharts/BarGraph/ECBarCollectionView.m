@@ -52,10 +52,6 @@
     self.scrollsToTop = NO;
     self.showsVerticalScrollIndicator = NO;
     self.showsHorizontalScrollIndicator = NO;
-    
-//    self.contentInset = UIEdgeInsetsMake(0, ScreenW * 0.25 , 0, ScreenW * 0.25);
-    
-//    self.contentOffset = CGPointMake( -ScreenW * 0.5 + 78 * 0.5, 0);
 }
 
 + (UICollectionViewFlowLayout *)collectionViewFlowLayout {
@@ -81,33 +77,14 @@
     return CGSizeMake(87, 200);
 }
 
-//-(CGFloat )collectionView:(UICollectionView *)collectionView
-//                   layout:(nonnull UICollectionViewLayout *)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section{
-//    return 0.01;
-//}
-
-//-(CGFloat )collectionView:(UICollectionView *)collectionView
-//                   layout:(nonnull UICollectionViewLayout *)collectionViewLayout
-//minimumLineSpacingForSectionAtIndex:(NSInteger)section {
-//    return 0.01;
-//}
-
 #pragma mark - UICollectionViewDelegateFlowLayout
 - (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
-//    [(DrawBarCollectionViewCell *)cell configureCellWithPointYList:self.pointModelLits withIndex:indexPath.row];
     [(ECBarCollectionViewCell *)cell reset];
 }
 
 #pragma mark - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView
 didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-//    CGFloat cellWidth = (ScreenW / 5.0);
-//    CGFloat offsetX = (indexPath.row - 2) * cellWidth;
-//    [UIView animateWithDuration:0.3 animations:^{
-//        self.contentOffset = CGPointMake(offsetX, 0);
-//    }];
-//    self.contentOffset = CGPointMake(-ScreenW * 0.5, 0);
-    
 }
 
 

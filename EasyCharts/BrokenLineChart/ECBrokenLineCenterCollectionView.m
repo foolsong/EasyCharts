@@ -37,7 +37,7 @@
 
 + (instancetype)collectionViewWithFrame:(CGRect)frame
                    withBrokenLineConfig:(ECBrokenLineConfig *)brokenLineConfig {
-    DrawLineCollectionViewFlowLayout *layout = [self collectionViewFlowLayout];
+    ECBrokenLineCenterCollectionViewFlowLayout *layout = [self collectionViewFlowLayout];
     ECBrokenLineCenterCollectionView *collectionView =
     [[self alloc]initWithFrame:CGRectMake(0, 0,frame.size.width ,frame.size.height)
           collectionViewLayout:layout];
@@ -142,8 +142,8 @@
 }
 
 #pragma mark - CollectionViewFlowLayout
-+ (DrawLineCollectionViewFlowLayout *)collectionViewFlowLayout {
-    DrawLineCollectionViewFlowLayout *layout = [DrawLineCollectionViewFlowLayout new];
++ (ECBrokenLineCenterCollectionViewFlowLayout *)collectionViewFlowLayout {
+    ECBrokenLineCenterCollectionViewFlowLayout *layout = [ECBrokenLineCenterCollectionViewFlowLayout new];
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     layout.minimumLineSpacing = 0;
     return layout;
@@ -246,15 +246,17 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
 }
 
 @end
+
+
 #pragma mark - collectionView 的 flowLayout
 /**
- collectionView 的 flowLayout
+ collectionView  flowLayout
  */
-@interface DrawLineCollectionViewFlowLayout()
+@interface ECBrokenLineCenterCollectionViewFlowLayout()
 
 @end
 
-@implementation DrawLineCollectionViewFlowLayout
+@implementation ECBrokenLineCenterCollectionViewFlowLayout
 
 - (void)prepareLayout {
     [super prepareLayout];

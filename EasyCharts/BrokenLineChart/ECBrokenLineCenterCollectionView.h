@@ -7,11 +7,11 @@
 //
 
 #import "ECBrokenLineCollectionView.h"
-#import "ECBrokenLineProtocol.h"
+
 
 @class ECBrokenLineCenterCollectionView,ECBrokenLineConfig;
 
-@interface ECBrokenLineCenterCollectionView : ECBrokenLineCollectionView <ECBrokenLineProtocol>
+@interface ECBrokenLineCenterCollectionView : ECBrokenLineCollectionView
 
 @property (nonatomic, weak) id<ECBrokenLineCollectionViewDataSource> drawLineDataSource;
 @property (nonatomic, weak) id<ECBrokenLineCollectionViewDelegate> drawLineDelegate;
@@ -19,13 +19,13 @@
 + (instancetype)collectionViewWithFrame:(CGRect)frame
                    withBrokenLineConfig:(ECBrokenLineConfig *)brokenLineConfig;
 
-
 @end
 
 
 typedef  void (^ScrollIndexBlock)(NSInteger);
 
-@interface DrawLineCollectionViewFlowLayout : UICollectionViewFlowLayout
+
+@interface ECBrokenLineCenterCollectionViewFlowLayout : UICollectionViewFlowLayout
 
 @property (nonatomic, copy) ScrollIndexBlock indexBlock;
 

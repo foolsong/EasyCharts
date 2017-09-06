@@ -27,7 +27,7 @@
                     brokenLineType:(BrokenLineType)brokenLineType;
 
 /**
- Fill data
+ Data filling
 
  @param pointValueList  valueList
  @param titleTextList textList
