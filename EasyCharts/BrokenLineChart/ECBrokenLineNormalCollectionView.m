@@ -62,7 +62,8 @@
     self.contentOffset = CGPointMake(offsetX, 0);
     self.currentIndex = [[self pointModelList] count] - 1;
     
-    [self didSelectItemAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+    [self didSelectItemAtIndexPath:[NSIndexPath indexPathForRow:[self.pointModelList count] - 1
+                                                      inSection:0]];
 }
 
 - (void)p_configOwnProperties {
