@@ -13,7 +13,6 @@
 
 + (instancetype)pieChartViewWithFrame:(CGRect)frame;
 
-
 - (void)drawPieChartWithPercentList:(NSArray<NSNumber *> *)percentList
                           colorList:(NSArray<UIColor *> *)colorList
                         arcTextList:(NSArray<NSString *> *)arcTextList;

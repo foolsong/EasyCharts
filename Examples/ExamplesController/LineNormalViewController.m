@@ -66,7 +66,7 @@
 #pragma ECBrokenLineViewDelegate
 - (void)brokenLineView:(ECBrokenLineView *)brokenLineView
    selectedAtIndexPath:(NSIndexPath *)indexPath {
-    ECLog(@"delegate");
+    ECLog(@"delegate---%ld",(long)indexPath.row);
 }
 
 #pragma mark - HandleViews

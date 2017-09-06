@@ -196,8 +196,8 @@
 			isa = PBXGroup;
 			children = (
 				847F9CEA1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.h */,
-				847F9CEB1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m */,
 				847F9CEC1F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.h */,
+				847F9CEB1F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m */,
 				847F9CED1F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m */,
 				847F9CEE1F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.h */,
 				847F9CEF1F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m */,

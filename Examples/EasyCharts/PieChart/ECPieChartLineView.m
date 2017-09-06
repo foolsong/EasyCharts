@@ -35,10 +35,13 @@
 
 - (void)setupLabel:(ECPieChartModel *)model {
     CGRect frame;
-    if (model.arcCenterQuadrant == ArcCenterQuadrantFourth || model.arcCenterQuadrant == ArcCenterQuadrantFirst) {
-        frame = CGRectMake(model.textLeftCenterPoint.x + 4, model.textLeftCenterPoint.y - 11, 32, 22);
+    if (model.arcCenterQuadrant == ArcCenterQuadrantFourth ||
+        model.arcCenterQuadrant == ArcCenterQuadrantFirst) {
+        frame = CGRectMake(model.textLeftCenterPoint.x + 4,
+                           model.textLeftCenterPoint.y - 11, 32, 22);
     } else {
-        frame = CGRectMake(model.textLeftCenterPoint.x + 4 - 32, model.textLeftCenterPoint.y - 11, 32, 22);
+        frame = CGRectMake(model.textLeftCenterPoint.x + 4 - 32,
+                           model.textLeftCenterPoint.y - 11, 32, 22);
     }
     
     UILabel *label = [[UILabel alloc] init];

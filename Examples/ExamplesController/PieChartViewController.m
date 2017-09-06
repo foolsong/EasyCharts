@@ -84,9 +84,6 @@
 }
 
 - (void)testButtonClicked:(UIButton *)button {
-    
-    //    [[UIApplication sharedApplication]openURL:[NSURL   URLWithString:@"mailto:example@example.com"]];
-    
     [self randomNumList];
     [self randomColorList];
     [self randomText];

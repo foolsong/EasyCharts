@@ -32,6 +32,7 @@
     [self configOwnProperties];
     [self configSubViews];
     
+    
     [self setupValue];
 }
 
@@ -66,7 +67,6 @@
 - (void)configSubViews {
     [self setupDrawProgressByShapeLayer];
     [self setupDrawLineView];
-    
 }
 
 - (void)setupDrawProgressByShapeLayer {
@@ -78,8 +78,8 @@
     
     CGRect frame = CGRectMake(x ,y ,width , height);;
     ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFrame:frame];
-    [self.view addSubview:progressView];
     self.progressView = progressView;
+    [self.view addSubview:progressView];
 }
 
 - (void)setupDrawLineView {

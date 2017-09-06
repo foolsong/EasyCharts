@@ -72,7 +72,8 @@
 }
 
 - (void)setupNumlabelWithFrame:(CGRect)frame {
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width,
+                                                               frame.size.height)];
     label.center = self.circleCenter;
     label.textAlignment = NSTextAlignmentCenter;
     [self addSubview:label];
@@ -106,17 +107,20 @@
 }
 
 - (void)computerRadiusAndCircleCenterWithFrame:(CGRect) frame {
-    CGFloat  sideLength = frame.size.width > frame.size.height ? frame.size.height :frame.size.width;
+    CGFloat sideLength = frame.size.width > frame.size.height ?
+                                            frame.size.height : frame.size.width;
     self.radius = (sideLength - 13) * 0.5;
     self.circleCenter = CGPointMake(frame.size.width * 0.5, frame.size.height * 0.5);
 }
 
 #pragma mark - sublayers
 - (void)drawBackGroupCircle {
-    UIColor *backGroupColor = [UIColor colorWithRed:(255)/255.0 green:(179)/255.0 blue:(0)/255.0 alpha:0.4];
+    UIColor *backGroupColor = [UIColor colorWithRed:(255)/255.0 green:(179)/255.0
+                                               blue:(0)/255.0 alpha:0.4];
     [self drawCircleWithLineWidth:13.0f lineColor:backGroupColor];
     
-    UIColor *backLinecolor = [UIColor colorWithRed:(255)/255.0 green:(209)/255.0 blue:(93)/255.0 alpha:1.0];
+    UIColor *backLinecolor = [UIColor colorWithRed:(255)/255.0 green:(209)/255.0
+                                              blue:(93)/255.0 alpha:1.0];
     [self drawCircleWithLineWidth:5.0f lineColor:backLinecolor];
 }
 
@@ -125,7 +129,10 @@
     shapeLayer.frame = self.bounds;
     CGFloat startA = -M_PI_2;
     CGFloat endA = -M_PI_2 +  M_PI * 2;
-    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:self.circleCenter radius:self.radius startAngle:startA endAngle:endA clockwise:YES];
+    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:self.circleCenter
+                                                        radius:self.radius
+                                                    startAngle:startA endAngle:endA
+                                                     clockwise:YES];
     shapeLayer.path = path.CGPath;
     shapeLayer.fillColor = [UIColor clearColor].CGColor;
     shapeLayer.lineWidth = lineWidth;
@@ -149,8 +156,8 @@
     if (_progresShapeLayer == nil) {
         CABasicAnimation *pathAnima = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
         pathAnima.duration = animationDuration;
-        pathAnima.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-        
+        pathAnima.timingFunction =
+            [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
         pathAnima.fillMode = kCAFillModeForwards;
         pathAnima.removedOnCompletion = NO;
         _progressPathAnima = pathAnima;
