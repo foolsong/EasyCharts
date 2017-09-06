@@ -44,7 +44,7 @@
 
 #pragma mark - Functions
 - (void)setupNavigationBar {
-    
+    self.title = @"BrokenLine";
 }
 
 - (void)configOwnProperties {

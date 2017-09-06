@@ -43,7 +43,7 @@
 
 #pragma mark - Functions
 - (void)setupNavigationBar {
-    
+    self.title = @"BrokenLine";
 }
 
 - (void)configOwnProperties {
@@ -51,8 +51,10 @@
 }
 
 - (void)setupLineValue {
-    [self.brokenLineView reloadLineViewDataWithPointValveList:@[@"12",@"80",@"-1",@"56",@"80",@"-12",@"0",@"1",@"56",@"-14",@"12",@"80",@"1",@"56",@"34"]
-                                                    titleText:@[@"Jan",@"Feb",@"Mar",@"Apr",@"May",@"Jun",@"Jul",@"Aug",@"Sept",@"Oct",@"Nov",@"Dec",@"Jan",@"Feb",@"Mar"]];
+    [self.brokenLineView reloadLineViewDataWithPointValveList:@[@"12",@"80",@"-1",
+    @"56",@"80",@"-12",@"0",@"1",@"56",@"-14",@"12",@"80",@"1",@"56",@"34"]
+                                                    titleText:@[@"Jan",@"Feb",@"Mar",
+    @"Apr",@"May",@"Jun",@"Jul",@"Aug",@"Sept",@"Oct",@"Nov",@"Dec",@"Jan",@"Feb",@"Mar"]];
 }
 
 - (void)resetupLineValue {

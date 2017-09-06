@@ -45,7 +45,7 @@
 
 #pragma mark - Functions
 - (void)setupNavigationBar {
-    
+    self.title = @"Line&Progress";
 }
 
 - (void)configOwnProperties {

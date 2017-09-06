@@ -42,7 +42,7 @@
 
 #pragma mark - Functions
 - (void)setupNavigationBar {
-    
+    self.title = @"ProgressView";
 }
 
 - (void)configOwnProperties {
@@ -58,7 +58,6 @@
 }
 
 - (void)setupDrawProgressByShapeLayer {
-    
     CGFloat width = 200;
     CGFloat height = 200;
     CGFloat x = (ECScreenW - width) * 0.5;

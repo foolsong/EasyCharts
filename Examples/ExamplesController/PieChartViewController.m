@@ -46,6 +46,7 @@
 #pragma mark - Functions
 - (void)configOwnProperties {
     [self.view setBackgroundColor:[UIColor whiteColor]];
+    self.title = @"PieChart";
 }
 
 
@@ -65,30 +66,6 @@
     [pieView drawPieChartWithPercentList:self.percentList
                                colorList:self.colorList
                              arcTextList:self.arcTextList];
-}
-
-- (NSArray<NSNumber *> *)percentList {
-    if (_percentList == nil) {
-        _percentList = @[@(0.2),@(0.4),@(0.1),@(0.3)];
-    }
-    return _percentList;
-}
-
-- (NSArray<UIColor *> *)colorList {
-    if (_colorList == nil) {
-        _colorList = @[[UIColor colorWithRed:(64)/255.0 green:(186)/255.0 blue:(255)/255.0 alpha:1.0],
-                       [UIColor colorWithRed:(255)/255.0 green:(133)/255.0 blue:(155)/255.0 alpha:1.0],
-                       [UIColor colorWithRed:(255)/255.0 green:(179)/255.0 blue:(0)/255.0 alpha:1.0],
-                       [UIColor colorWithRed:(152)/255.0 green:(230)/255.0 blue:(123)/255.0 alpha:1.0]];
-    }
-    return _colorList;
-}
-
-- (NSArray<NSString *> *)arcTextList {
-    if (_arcTextList == nil) {
-        _arcTextList = @[@"T1",@"T2",@"T3",@"T4"];
-    }
-    return _arcTextList;
 }
 
 - (void)setupTestButton {
@@ -140,7 +117,6 @@
     for (int i = 0; i < [self.percentList count]; i++) {
         [colorMutableList addObject:randomColor];
     }
-    
     self.colorList = colorMutableList;
 }
 
@@ -160,7 +136,29 @@
 #pragma mark - Getter
 
 #pragma mark - LazyLoads
+- (NSArray<NSNumber *> *)percentList {
+    if (_percentList == nil) {
+        _percentList = @[@(0.2),@(0.4),@(0.1),@(0.3)];
+    }
+    return _percentList;
+}
 
+- (NSArray<UIColor *> *)colorList {
+    if (_colorList == nil) {
+        _colorList = @[[UIColor colorWithRed:(64)/255.0 green:(186)/255.0 blue:(255)/255.0 alpha:1.0],
+                       [UIColor colorWithRed:(255)/255.0 green:(133)/255.0 blue:(155)/255.0 alpha:1.0],
+                       [UIColor colorWithRed:(255)/255.0 green:(179)/255.0 blue:(0)/255.0 alpha:1.0],
+                       [UIColor colorWithRed:(152)/255.0 green:(230)/255.0 blue:(123)/255.0 alpha:1.0]];
+    }
+    return _colorList;
+}
+
+- (NSArray<NSString *> *)arcTextList {
+    if (_arcTextList == nil) {
+        _arcTextList = @[@"T1",@"T2",@"T3",@"T4"];
+    }
+    return _arcTextList;
+}
 
 #pragma mark - MemoryWarning
 - (void)didReceiveMemoryWarning {
