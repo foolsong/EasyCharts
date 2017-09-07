@@ -67,6 +67,7 @@
     ECProgressChartView *progressView = [ECProgressChartView progressChartViewWithFrame:frame];
     [self.view addSubview:progressView];
     self.progressView = progressView;
+    [self.progressView resetProgress:0.4];
 }
 
 - (CGFloat)createProgress {

@@ -31,8 +31,6 @@
     [self setupNavigationBar];
     [self configOwnProperties];
     [self configSubViews];
-    
-    
     [self setupValue];
 }
 
@@ -90,10 +88,6 @@
     brokenLineView.delegate = self;
     [self.view addSubview:brokenLineView];
     self.brokenLineView = brokenLineView;
-}
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-//    [self test1];
 }
 
 - (void)setupValue {
