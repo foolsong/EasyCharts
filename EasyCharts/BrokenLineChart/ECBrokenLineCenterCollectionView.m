@@ -76,12 +76,9 @@
         [self setupCellSelected];
     });
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.4 * NSEC_PER_SEC)),
-                   dispatch_get_main_queue(), ^{
-        [self didSelectItemAtIndexPath:[NSIndexPath
-                                        indexPathForRow:([self.pointModelList count] - 1)
+    [self didSelectItemAtIndexPath:[NSIndexPath
+                                indexPathForRow:([self.pointModelList count] - 1)
                                               inSection:0]];
-    });
 }
 
 - (void)setupCellSelected {
@@ -196,7 +193,6 @@
 - (void)collectionView:(UICollectionView *)collectionView
        willDisplayCell:(UICollectionViewCell *)cell
     forItemAtIndexPath:(NSIndexPath *)indexPath {
-    
 //    [(DrawLineCollectionViewCell *)cell setupDrawConfig:self.drawConfig];
     [(ECBrokenLineCollectionViewCell *)cell configureCellWithPointYList:[self pointModelList]
                                                               withIndex:indexPath.row];

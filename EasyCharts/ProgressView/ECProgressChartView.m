@@ -14,7 +14,7 @@
 
 #import "ECProgressChartView.h"
 
-#define animationDuration 0.4
+#define ECAnimationDuration 0.4
 
 @interface ECProgressChartView ()
 
@@ -56,7 +56,7 @@
     self.fromValue = 0;
     self.toValue = 0;
     self.currentProgress = 0;
-    [self resetProgress:0];
+    [self resetProgress:self.currentProgress];
 }
 
 - (void)setupProperty {
@@ -98,8 +98,10 @@
 
 - (void)hideProgresShapeLayerIfNeeded {
     if (self.currentProgress * 100 == 0) {
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(animationDuration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            self.progresShapeLayer.hidden = YES;
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(ECAnimationDuration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            if (self.currentProgress * 100 == 0) {
+                self.progresShapeLayer.hidden = YES;
+            }
         });
     } else {
         self.progresShapeLayer.hidden = NO;
@@ -153,9 +155,9 @@
 }
 
 - (CABasicAnimation *)progressPathAnima {
-    if (_progresShapeLayer == nil) {
+    if (_progressPathAnima == nil) {
         CABasicAnimation *pathAnima = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
-        pathAnima.duration = animationDuration;
+        pathAnima.duration = ECAnimationDuration;
         pathAnima.timingFunction =
             [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
         pathAnima.fillMode = kCAFillModeForwards;
