@@ -36,6 +36,8 @@
 		847F9D201F5AA08E0015FBC8 /* ECPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0C1F5AA08E0015FBC8 /* ECPieChartView.m */; };
 		847F9D211F5AA08E0015FBC8 /* ECProgressChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */; };
 		847F9D4B1F5C04060015FBC8 /* EasyChartsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 847F9D4A1F5C04060015FBC8 /* EasyChartsBundle.bundle */; };
+		84D3233E1F6296EA009A0A67 /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3233D1F6296EA009A0A67 /* BarChartViewController.m */; };
+		84D323411F629852009A0A67 /* ECBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D323401F629852009A0A67 /* ECBarChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +98,10 @@
 		847F9D0E1F5AA08E0015FBC8 /* ECProgressChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECProgressChartView.h; sourceTree = "<group>"; };
 		847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECProgressChartView.m; sourceTree = "<group>"; };
 		847F9D4A1F5C04060015FBC8 /* EasyChartsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyChartsBundle.bundle; sourceTree = "<group>"; };
+		84D3233C1F6296EA009A0A67 /* BarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
+		84D3233D1F6296EA009A0A67 /* BarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		84D3233F1F629852009A0A67 /* ECBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBarChartView.h; sourceTree = "<group>"; };
+		84D323401F629852009A0A67 /* ECBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBarChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,8 @@
 				843863F61F601937000D8749 /* PieChartViewController.m */,
 				843863F71F601937000D8749 /* ProgressViewController.h */,
 				843863F81F601937000D8749 /* ProgressViewController.m */,
+				84D3233C1F6296EA009A0A67 /* BarChartViewController.h */,
+				84D3233D1F6296EA009A0A67 /* BarChartViewController.m */,
 			);
 			path = ExamplesController;
 			sourceTree = "<group>";
@@ -188,6 +196,8 @@
 				847F9CE61F5AA08E0015FBC8 /* ECBarCollectionView.m */,
 				847F9CE71F5AA08E0015FBC8 /* ECBarCollectionViewCell.h */,
 				847F9CE81F5AA08E0015FBC8 /* ECBarCollectionViewCell.m */,
+				84D3233F1F629852009A0A67 /* ECBarChartView.h */,
+				84D323401F629852009A0A67 /* ECBarChartView.m */,
 			);
 			path = BarGraph;
 			sourceTree = "<group>";
@@ -334,6 +344,7 @@
 				847F9D191F5AA08E0015FBC8 /* ECBrokenLineNormalBackgroundView.m in Sources */,
 				847F9D101F5AA08E0015FBC8 /* ECBarCollectionView.m in Sources */,
 				847F9D131F5AA08E0015FBC8 /* ECBrokenLineCenterCollectionView.m in Sources */,
+				84D323411F629852009A0A67 /* ECBarChartView.m in Sources */,
 				847F9D1E1F5AA08E0015FBC8 /* ECPieChartLineView.m in Sources */,
 				843863FC1F601938000D8749 /* PieChartViewController.m in Sources */,
 				847F9D1B1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m in Sources */,
@@ -349,6 +360,7 @@
 				847F9CD11F5A9EF90015FBC8 /* AppDelegate.m in Sources */,
 				847F9D1A1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.m in Sources */,
 				847F9CCE1F5A9EF90015FBC8 /* main.m in Sources */,
+				84D3233E1F6296EA009A0A67 /* BarChartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
