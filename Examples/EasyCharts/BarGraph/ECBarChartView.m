@@ -49,7 +49,7 @@
     ECBarCollectionView *collectionView =[ECBarCollectionView collectionView];
     [collectionView setBackgroundColor:[UIColor whiteColor]];
     collectionView.frame = CGRectMake(0, 0, ECScreenW, 210);
-    [collectionView reset:2];
+    [collectionView reset:10];
     [self addSubview:collectionView];
 }
 

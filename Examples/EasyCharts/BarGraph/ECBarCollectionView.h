@@ -14,3 +14,8 @@
 - (void)reset:(NSInteger)cellCount;
 
 @end
+
+
+@interface ECBarCollectionViewFlowLayout :UICollectionViewFlowLayout
+
+@end

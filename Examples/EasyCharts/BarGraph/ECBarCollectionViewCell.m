@@ -62,7 +62,7 @@
                                       height:(CGFloat)height{
     CAShapeLayer *layer = [CAShapeLayer layer];
     layer.frame = self.bounds;
-    CGFloat lineWidth = 32 *0.5;
+    CGFloat lineWidth = 32 * 0.5;
     
     UIBezierPath *bar = [UIBezierPath bezierPath];
     [bar moveToPoint:CGPointMake(x, 200)];
