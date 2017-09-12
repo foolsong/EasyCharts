@@ -18,6 +18,8 @@
 
 @interface ECBarChartView ()
 
+@property (nonatomic, strong) ECBarCollectionView *collectionView;
+
 @end
 
 @implementation ECBarChartView
@@ -51,6 +53,7 @@
     collectionView.frame = CGRectMake(0, 0, ECScreenW, 210);
     [collectionView reset:10];
     [self addSubview:collectionView];
+    self.collectionView = collectionView;
 }
 
 @end

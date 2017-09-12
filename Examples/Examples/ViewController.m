@@ -29,6 +29,33 @@
     [self p_setupNavigationBar];
     [self p_configOwnProperties];
     [self p_configSubViews];
+    
+    
+//    int test3 = 1234;
+//    void(^block3)() = ^(){
+//        NSLog(@"%d",test3);
+//    };
+//    test3 = 4321;
+//    block3();
+//    
+//    int t = 1234;
+//    int *test2 = &t;
+//    void(^block2)() = ^(){
+//        NSLog(@"%d",*test2);
+//    };
+//    *test2 = 4321;
+//    block2();
+//    
+//    NSString *test1 = @"1234";
+//    
+//     NSLog(@"init _person3:%@,%p",test1,test1);
+//    void(^block1)() = ^(){
+//        NSLog(@"excuteing _person3:%@,%p",test1,test1);
+//        NSLog(@"%@",test1);
+//    };
+//    test1 = @"4321";
+//    block1();
+//     NSLog(@"excuteafter _person2:%@,%p",test1,test1);
 }
 
 #pragma mark - Functions

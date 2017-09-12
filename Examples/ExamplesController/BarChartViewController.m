@@ -29,6 +29,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.automaticallyAdjustsScrollViewInsets = NO;
     [self setupNavigationBar];
     [self configOwnProperties];
     [self configSubViews];
