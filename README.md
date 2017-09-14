@@ -1,5 +1,4 @@
-# EasyCharts 
- ![](https://github.com/foolsong/EasyCharts/blob/master/gif/ec_blog_9_14.png) 
+# EasyCharts     ![](https://github.com/foolsong/EasyCharts/blob/master/gif/ec_blog_9_14.png) 
 A simple chart lib used for iOS(Objective-c).  :-)
 
 [中文说明](http://blog.csdn.net/foolsong/article/details/77811429)
