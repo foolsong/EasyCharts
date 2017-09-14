@@ -1,4 +1,4 @@
-# EasyCharts     <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/ec_blog_9_14.png"  width=30 alt="EC_logo" />
+# <center>EasyCharts     <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/ec_blog_9_14.png"  width=60 alt="EC_logo" /></center>
 <!-- ![](https://github.com/foolsong/EasyCharts/blob/master/gif/ec_blog_9_14.png)  -->
 A simple chart lib used for iOS(Objective-c).  :-)
 
