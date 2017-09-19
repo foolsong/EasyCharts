@@ -48,7 +48,7 @@
 - (void)setupDrawCircleView {
     ECPieChartCoreView *pieChartView = [[ECPieChartCoreView alloc] init];
     pieChartView.arcCenter = self.arcCenter;
-    pieChartView.frame = self.frame;
+    pieChartView.frame = self.bounds;
     [self addSubview:pieChartView];
     self.pieChartView = pieChartView;
 }
@@ -56,7 +56,7 @@
 - (void)setupDrawCircleLineView {
     ECPieChartLineView *pieChartLineView = [[ECPieChartLineView alloc] init];
     pieChartLineView.arcCenter = self.arcCenter;
-    pieChartLineView.frame = self.frame;
+    pieChartLineView.frame = self.bounds;
     [self addSubview:pieChartLineView];
     self.pieChartLineView = pieChartLineView;
 }
