@@ -107,6 +107,13 @@ Data filling: ( If the value is less than the minimum value, the minimum value i
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif"  width=300 alt="EC_lineCenterView" />
 
 
+
+| **The effect of BrokenLineTypeNormal**        | **The effect of BrokenLineTypeCenterPoint**           | 
+| ------------- |:-------------:| 
+| <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif"  width=300 alt="EC_lineNormal" />     | <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif"  width=300 alt="EC_lineCenterView" /> | 
+
+
+
 <center>
 
 
