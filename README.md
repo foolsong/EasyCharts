@@ -98,6 +98,7 @@ Data filling: ( If the value is less than the minimum value, the minimum value i
                                                     titleText:self.pointTextList];
 ```													
 
+<!--
 **The effect of BrokenLineTypeNormal**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineNormal_gif.gif"  width=300 alt="EC_lineNormal" />
@@ -106,7 +107,7 @@ Data filling: ( If the value is less than the minimum value, the minimum value i
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_lineCenterView_gif.gif"  width=300 alt="EC_lineCenterView" />
 
-
+-->
 
 | &nbsp;&nbsp;&nbsp; **The effect of BrokenLineTypeNormal**   &nbsp;&nbsp;&nbsp;     | &nbsp;&nbsp;&nbsp; **The effect of BrokenLineTypeCenterPoint**   &nbsp;&nbsp;&nbsp;        | 
 | ------------- |:-------------:| 
