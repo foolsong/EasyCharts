@@ -1,6 +1,6 @@
 # <center>EasyCharts     <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/ec_blog_9_14.png"  width=60 alt="EC_logo" /></center>
 <!-- ![](https://github.com/foolsong/EasyCharts/blob/master/gif/ec_blog_9_14.png)  -->
-A simple chart lib used for iOS(Objective-c).  :-)  [Swift](https://github.com/foolsong/EasyChartsSwift)
+A simple chart lib used for iOS(Objective-c).  :-)          [Swift](https://github.com/foolsong/EasyChartsSwift)
 
 [中文说明](http://blog.csdn.net/foolsong/article/details/77811429)
 
