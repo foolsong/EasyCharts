@@ -15,7 +15,7 @@ A simple chart lib used for iOS(Objective-c).  :-)          [Swift](https://gith
  - [x] PieChart
  - [x] ProgressChart 
  - [ ] BarGraph
- - [ ] RadarMap
+ - [x] RadarMap
 
 **Continuously updating ...…**
 
