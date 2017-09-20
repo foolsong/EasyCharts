@@ -36,6 +36,10 @@
 		847F9D201F5AA08E0015FBC8 /* ECPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0C1F5AA08E0015FBC8 /* ECPieChartView.m */; };
 		847F9D211F5AA08E0015FBC8 /* ECProgressChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */; };
 		847F9D4B1F5C04060015FBC8 /* EasyChartsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 847F9D4A1F5C04060015FBC8 /* EasyChartsBundle.bundle */; };
+		84914CA91F7251E4004841F3 /* ECRadarChartConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84914CA81F7251E4004841F3 /* ECRadarChartConfig.m */; };
+		84914CAF1F725445004841F3 /* ECRadarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84914CAE1F725445004841F3 /* ECRadarChartView.m */; };
+		84914CB21F72551C004841F3 /* ECRadarChartShineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84914CB11F72551C004841F3 /* ECRadarChartShineLayer.m */; };
+		84914CB51F725832004841F3 /* RadarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84914CB41F725832004841F3 /* RadarChartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +100,14 @@
 		847F9D0E1F5AA08E0015FBC8 /* ECProgressChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECProgressChartView.h; sourceTree = "<group>"; };
 		847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECProgressChartView.m; sourceTree = "<group>"; };
 		847F9D4A1F5C04060015FBC8 /* EasyChartsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyChartsBundle.bundle; sourceTree = "<group>"; };
+		84914CA71F7251E4004841F3 /* ECRadarChartConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECRadarChartConfig.h; sourceTree = "<group>"; };
+		84914CA81F7251E4004841F3 /* ECRadarChartConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECRadarChartConfig.m; sourceTree = "<group>"; };
+		84914CAD1F725445004841F3 /* ECRadarChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECRadarChartView.h; sourceTree = "<group>"; };
+		84914CAE1F725445004841F3 /* ECRadarChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECRadarChartView.m; sourceTree = "<group>"; };
+		84914CB01F72551C004841F3 /* ECRadarChartShineLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECRadarChartShineLayer.h; sourceTree = "<group>"; };
+		84914CB11F72551C004841F3 /* ECRadarChartShineLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECRadarChartShineLayer.m; sourceTree = "<group>"; };
+		84914CB31F725832004841F3 /* RadarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarChartViewController.h; sourceTree = "<group>"; };
+		84914CB41F725832004841F3 /* RadarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarChartViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,8 @@
 				843863F61F601937000D8749 /* PieChartViewController.m */,
 				843863F71F601937000D8749 /* ProgressViewController.h */,
 				843863F81F601937000D8749 /* ProgressViewController.m */,
+				84914CB31F725832004841F3 /* RadarChartViewController.h */,
+				84914CB41F725832004841F3 /* RadarChartViewController.m */,
 			);
 			path = ExamplesController;
 			sourceTree = "<group>";
@@ -171,6 +185,7 @@
 		847F9CE31F5AA08E0015FBC8 /* EasyCharts */ = {
 			isa = PBXGroup;
 			children = (
+				84914CA61F725183004841F3 /* RadarChart */,
 				847F9CE41F5AA08E0015FBC8 /* BarGraph */,
 				847F9CE91F5AA08E0015FBC8 /* BrokenLineChart */,
 				847F9D011F5AA08E0015FBC8 /* Common */,
@@ -250,6 +265,19 @@
 				847F9D0F1F5AA08E0015FBC8 /* ECProgressChartView.m */,
 			);
 			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		84914CA61F725183004841F3 /* RadarChart */ = {
+			isa = PBXGroup;
+			children = (
+				84914CA71F7251E4004841F3 /* ECRadarChartConfig.h */,
+				84914CA81F7251E4004841F3 /* ECRadarChartConfig.m */,
+				84914CAD1F725445004841F3 /* ECRadarChartView.h */,
+				84914CAE1F725445004841F3 /* ECRadarChartView.m */,
+				84914CB01F72551C004841F3 /* ECRadarChartShineLayer.h */,
+				84914CB11F72551C004841F3 /* ECRadarChartShineLayer.m */,
+			);
+			path = RadarChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,13 +368,17 @@
 				847F9D1B1F5AA08E0015FBC8 /* ECBrokenLinePointModel.m in Sources */,
 				847F9D121F5AA08E0015FBC8 /* ECBrokenLineCenterBackgroundView.m in Sources */,
 				847F9D201F5AA08E0015FBC8 /* ECPieChartView.m in Sources */,
+				84914CB21F72551C004841F3 /* ECRadarChartShineLayer.m in Sources */,
+				84914CA91F7251E4004841F3 /* ECRadarChartConfig.m in Sources */,
 				847F9D141F5AA08E0015FBC8 /* ECBrokenLineCircleLayer.m in Sources */,
 				847F9D1D1F5AA08E0015FBC8 /* ECPieChartCoreView.m in Sources */,
 				847F9D1C1F5AA08E0015FBC8 /* ECBrokenLineView.m in Sources */,
 				847F9D211F5AA08E0015FBC8 /* ECProgressChartView.m in Sources */,
 				847F9CD41F5A9EF90015FBC8 /* ViewController.m in Sources */,
+				84914CAF1F725445004841F3 /* ECRadarChartView.m in Sources */,
 				843863FA1F601937000D8749 /* LineNormalViewController.m in Sources */,
 				847F9D151F5AA08E0015FBC8 /* ECBrokenLineCollectionView.m in Sources */,
+				84914CB51F725832004841F3 /* RadarChartViewController.m in Sources */,
 				847F9CD11F5A9EF90015FBC8 /* AppDelegate.m in Sources */,
 				847F9D1A1F5AA08E0015FBC8 /* ECBrokenLineNormalCollectionView.m in Sources */,
 				847F9CCE1F5A9EF90015FBC8 /* main.m in Sources */,

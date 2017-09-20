@@ -155,21 +155,49 @@ Data filling:Three parameters:percentList、colorList、arcTextList]
 [pieView drawPieChartWithPercentList:self.percentList
                                colorList:self.colorList
                              arcTextList:self.arcTextList];
-```
+```chrome-extension://app.dingtalk.com/web_content/index.html#
 
 **The effect of PieChart:**
 
 <img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_%20PieChart_gif.gif"  width=300 alt="EC_lineCenterView" />
 
 
-<!--
-## Hope
+### RadarChartView
 
-* If you find bug when used，Hope you can Issues me，Thank you or try to download the latest code of this framework to see the BUG has been fixed or not）
-* If you find the function is not enough when used，Hope you can Issues me，I very much to add more useful function to this framework ，Thank you !
-* If you want to contribute code for EasyCharts，please Pull Requests me
+Initialization--Just transfer `frame`.
 
--->
+```Objective-c
+	ECRadarChartView *rView = [ECRadarChartView radarChartViewWithFrame:CGRectMake(60, 350, 270, 270)];
+	[self.view addSubview:rView];
+```
+
+Data filling:
+
+```Objective-c
+	ECRadarChartConfig *config = [[ECRadarChartConfig alloc] init];
+	config.backgroupLineNum = 5;
+	config.radius = 100;
+	config.drawPointArray = @[@[@(0.5),@(0.4),@(0.5),@(0.1),@(0.9)],
+	                              @[@(0.4),@(0.5),@(0.2),@(0.8),@(0.1)],
+	                              @[@(0.4),@(0.1),@(0.8),@(0.7),@(0.2)]];
+	config.drawLineColorArray = @[[UIColor orangeColor],[UIColor greenColor],[UIColor redColor]];
+	config.drawLineTitleArray = @[@"Technology",@"Execution",@"Thinking",@"Endurance",@"Speed"];
+	 [rView setupRadarChartConfig:config];
+```
+
+```Objective-c
+	ECRadarChartConfig *config = [[ECRadarChartConfig alloc] init];
+	config.backgroupLineNum = 5;
+	config.radius = 100;
+	config.drawPointArray = @[@[@(0.5),@(0.4),@(0.5),@(0.1),@(0.9),@(0.4)]];
+	config.drawLineColorArray = @[[UIColor orangeColor]];
+	config.drawLineTitleArray = @[@"Technology",@"Execution",@"Thinking",@"Endurance",@"Speed",@"Power",];
+	 [rView setupRadarChartConfig:config];
+```
+
+**The effect of PieChart:**
+
+<img src="https://github.com/foolsong/EasyCharts/blob/master/gif/EC_RadarChart.gif"  width=300 alt="EC_lineCenterView" />
 
 
 ## Communication

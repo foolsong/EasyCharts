@@ -14,6 +14,7 @@
 #import "PieChartViewController.h"
 #import "PieChartViewController.h"
 #import "LineViewAndProgressViewController.h"
+#import "RadarChartViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -79,6 +80,11 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
+- (void)jump2RadarChartViewController {
+    RadarChartViewController *vc = [[RadarChartViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 #pragma  mark - UITableViewDelegate,UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.titleList count];
@@ -110,6 +116,8 @@
         [self jump2LineViewAndProgressViewController];
     } else if (indexPath.row == 4) {
         [self jump2PieChartViewController];
+    } else if (indexPath.row == 5) {
+        [self jump2RadarChartViewController];
     }
 }
 
@@ -119,7 +127,7 @@
 
 - (NSArray *)titleList {
     if (_titleList == nil) {
-        _titleList = @[@"LineChart-1",@"LineChart-2",@"ProgressCircle",@"LineChart & ProgressCircle",@"PieChart"]; //,@"柱状图"
+        _titleList = @[@"LineChart-1",@"LineChart-2",@"ProgressCircle",@"LineChart & ProgressCircle",@"PieChart",@"RadarChartView"]; 
     }
     return _titleList;
 }
