@@ -155,7 +155,7 @@ Data filling:Three parameters:percentList、colorList、arcTextList]
 [pieView drawPieChartWithPercentList:self.percentList
                                colorList:self.colorList
                              arcTextList:self.arcTextList];
-```chrome-extension://app.dingtalk.com/web_content/index.html#
+```
 
 **The effect of PieChart:**
 
