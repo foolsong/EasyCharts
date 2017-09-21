@@ -47,8 +47,9 @@
 }
 
 - (void)computerArcCenterPoint {
-    CGFloat pointY = self.arcCenter.y + 76.5 * sin(_endAngle - (M_PI * _arcPercent));
     CGFloat pointX = self.arcCenter.x + 76.5 * cos(_endAngle - (M_PI * _arcPercent));
+    CGFloat pointY = self.arcCenter.y + 76.5 * sin(_endAngle - (M_PI * _arcPercent));
+    
     self.arcCenterPoint = CGPointMake(pointX, pointY);
 }
 

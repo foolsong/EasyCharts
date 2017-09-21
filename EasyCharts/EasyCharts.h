@@ -13,3 +13,5 @@
 #import "ECCommon.h"
 #import "ECProgressChartView.h"
 #import "ECPieChartView.h"
+#import "ECRadarChartView.h"
+#import "ECRadarChartConfig.h"
