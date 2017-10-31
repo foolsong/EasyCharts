@@ -111,11 +111,11 @@
     } else if (indexPath.row == 1) {
         [self jump2LineCenterViewController];
     } else if (indexPath.row == 2) {
-        [self jump2ProgressViewController];
-    } else if (indexPath.row == 3) {
-        [self jump2LineViewAndProgressViewController];
-    } else if (indexPath.row == 4) {
         [self jump2PieChartViewController];
+    } else if (indexPath.row == 3) {
+        [self jump2ProgressViewController];
+    } else if (indexPath.row == 4) {
+        [self jump2LineViewAndProgressViewController];
     } else if (indexPath.row == 5) {
         [self jump2RadarChartViewController];
     }
@@ -127,7 +127,7 @@
 
 - (NSArray *)titleList {
     if (_titleList == nil) {
-        _titleList = @[@"LineChart-1",@"LineChart-2",@"ProgressCircle",@"LineChart & ProgressCircle",@"PieChart",@"RadarChartView"]; 
+        _titleList = @[@"LineChart-1",@"LineChart-2",@"PieChart",@"ProgressCircle",@"LineChart & ProgressCircle",@"RadarChartView"];
     }
     return _titleList;
 }
