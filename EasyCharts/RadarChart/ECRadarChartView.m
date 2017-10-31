@@ -179,11 +179,6 @@
                               andWithAngle : (CGFloat) angle
                               andWithRadius: (CGFloat) radius{
     angle += 90;
-    
-    //    CGFloat width = [self sizeOfStringWithMaxSize:CGSizeMake(100, 20) textFont:14 aimString:@"发送到发"].width;
-    
-    //    radius += fabs(cosf(angle * M_PI/180) * width * 0.5 ) + 10;
-    
     CGFloat x2 = radius * (cosf(angle * M_PI/180));
     CGFloat y2 = radius * (sinf(angle * M_PI/180));
     return CGPointMake(center.x+x2, center.y-y2);

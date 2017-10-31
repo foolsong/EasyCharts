@@ -68,17 +68,23 @@
     return _cellCount;//[self.pointYList count];
 }
 
-- ( UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    ECBarCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ECBarCollectionViewCell" forIndexPath:indexPath];
+- ( UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
+                   cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    ECBarCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"ECBarCollectionViewCell"
+                                                                              forIndexPath:indexPath];
     return cell;
 }
 
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+- (CGSize)collectionView:(UICollectionView *)collectionView
+                  layout:(UICollectionViewLayout *)collectionViewLayout
+  sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     return CGSizeMake(87, 200);
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout
-- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
+- (void)collectionView:(UICollectionView *)collectionView
+       willDisplayCell:(UICollectionViewCell *)cell
+    forItemAtIndexPath:(NSIndexPath *)indexPath {
     [(ECBarCollectionViewCell *)cell reset];
 }
 
