@@ -58,9 +58,9 @@
 }
 
 - (void)scrollToRightmostCell {
-    CGFloat offsetX = ([[self pointModelList] count] - 3) * self.cellWidth + 0.2 * 2;
+    CGFloat offsetX = fabs((double)[self.pointModelList count] - 3) * self.cellWidth + 0.2 * 2;
     self.contentOffset = CGPointMake(offsetX, 0);
-    self.currentIndex = [[self pointModelList] count] - 1;
+    self.currentIndex = [self.pointModelList count] - 1;
     
     [self didSelectItemAtIndexPath:[NSIndexPath indexPathForRow:[self.pointModelList count] - 1
                                                       inSection:0]];

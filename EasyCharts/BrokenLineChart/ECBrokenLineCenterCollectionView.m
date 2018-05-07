@@ -68,9 +68,9 @@
 }
 
 - (void)scrollToRightmostCell {
-    CGFloat offsetX = ([[self pointModelList] count] - 3) * self.cellWidth + 0.2 * 2;
+    CGFloat offsetX = (fabs((double)[self.pointModelList count] - 3)) * self.cellWidth + 0.2 * 2;
     self.contentOffset = CGPointMake(offsetX, 0);
-    self.currentIndex = [[self pointModelList] count] - 1;
+    self.currentIndex = [self.pointModelList count] - 1;
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)),
                    dispatch_get_main_queue(), ^{
         [self setupCellSelected];
